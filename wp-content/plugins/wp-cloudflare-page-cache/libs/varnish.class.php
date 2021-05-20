@@ -1,0 +1,204 @@
+<?php
+
+defined( 'ABSPATH' ) || die( 'Cheatin&#8217; uh?' );
+
+class SWCFPC_Varnish
+{
+
+    private $main_instance       = null;
+    private $objects             = false;
+    private $hostname            = "localhost";
+    private $port                = 6081;
+    private $single_purge_method = "PURGE";
+    private $whole_purge_method  = "PURGE";
+    private $provider            = "";
+
+    function __construct( $main_instance )
+    {
+
+        $this->main_instance = $main_instance;
+
+        $this->hostname            = $this->main_instance->get_single_config("cf_varnish_hostname", "localhost");
+        $this->port                = $this->main_instance->get_single_config("cf_varnish_port", 6081);
+        $this->single_purge_method = $this->main_instance->get_single_config("cf_varnish_purge_method", "PURGE");
+        $this->whole_purge_method  = $this->main_instance->get_single_config("cf_varnish_purge_all_method", "PURGE");
+
+        if( $this->main_instance->get_single_config("cf_varnish_cw", 0) > 0 )
+            $this->provider = "cloudways";
+
+        $this->actions();
+
+    }
+
+
+    function actions() {
+
+        // Ajax clear whole fallback cache
+        add_action( 'wp_ajax_swcfpc_purge_varnish_cache', array($this, 'ajax_purge_whole_varnish_cache') );
+
+    }
+
+
+    function purge_urls( $urls ) {
+
+        $error = "";
+
+        if( is_array($urls) && count($urls) > 0 ) {
+
+            foreach($urls as $single_url)
+                $this->purge_single_url_cache( $single_url, $error );
+
+        }
+
+    }
+
+
+    function purge_single_url_cache( $url, &$error, $purge_all=false ) {
+
+        $this->objects = $this->main_instance->get_objects();
+
+        if( $this->hostname == null || $this->port == null ) {
+            $this->objects["logs"]->add_log("varnish::purge_single_url_cache", "Invalid hostname or port" );
+            $error = __("Invalid hostname or port", 'wp-cloudflare-page-cache');
+            return false;
+        }
+
+        // Varnish purge request on Cloudways
+        if( $this->provider == "cloudways" ) {
+
+            $this->single_purge_method = "URLPURGE";
+            $this->whole_purge_method  = "PURGE";
+
+        }
+
+        if ($purge_all) {
+
+            if( $this->provider == "cloudways" ) {
+                $schema = 'http://';
+                $finalURL = sprintf("%s%s:%d%s", $schema, $this->hostname, $this->port, "/.*");
+            }
+            else {
+                $schema = 'http://';
+                $finalURL = sprintf("%s%s:%d%s", $schema, $this->hostname, $this->port, "/*");
+            }
+
+        } else {
+
+            $parseUrl = parse_url($url);
+
+            // Determine the schema
+            $schema = 'http://';
+            if (isset($parseUrl['scheme'])) {
+                $schema = $parseUrl['scheme'] . '://';
+            }
+
+            // Determine the path
+            $path = '';
+            if (isset($parseUrl['path'])) {
+                $path = $parseUrl['path'];
+            }
+
+            $finalURL = sprintf("%s%s:%d%s", $schema, $this->hostname, $this->port, $path);
+
+            if (!empty($parseUrl['query'])) {
+                $finalURL .= '?' . $parseUrl['query'];
+            }
+
+        }
+
+        $this->objects["logs"]->add_log("varnish::purge_single_url_cache", "Send purging request to $finalURL");
+
+        $request_args = array(
+            'method' => $purge_all ? $this->whole_purge_method : $this->single_purge_method,
+            'headers' => array(
+                'Host' => $parseUrl['host'],
+                'User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+            ),
+            'sslverify' => false,
+        );
+
+        $response = wp_remote_request($finalURL, $request_args);
+
+        if ( is_wp_error($response) || $response['response']['code'] != '200' ) {
+
+            if ($schema === 'https://') {
+                $schema = 'http://';
+            } else {
+                $schema = 'https://';
+            }
+
+            if( is_wp_error($response) )
+                $this->objects["logs"]->add_log("varnish::purge_single_url_cache", "Error: " . $response->get_error_message() . " - Retry using $schema");
+            else
+                $this->objects["logs"]->add_log("varnish::purge_single_url_cache", "Response code " . $response['response']['code'] . " - Retry using $schema");
+
+            if ($purge_all) {
+                $finalURL = sprintf("%s%s:%d%s", $schema, $this->hostname, $this->port, "/*");
+            } else {
+
+                $finalURL = sprintf("%s%s:%d%s", $schema, $this->hostname, $this->port, $path);
+
+                if (!empty($parseUrl['query'])) {
+                    $finalURL .= '?' . $parseUrl['query'];
+                }
+
+            }
+
+            $this->objects["logs"]->add_log("varnish::purge_single_url_cache", "Send purging request to $finalURL");
+
+            $response = wp_remote_request($finalURL, $request_args);
+
+            if (is_wp_error($response)) {
+                $error = $response->get_error_message();
+                return false;
+            }
+            {
+                $body = wp_remote_retrieve_body($response);
+                $this->objects["logs"]->add_log("varnish::purge_single_url_cache", "Response body: $body");
+            }
+
+        } else {
+
+            $body = wp_remote_retrieve_body($response);
+            $this->objects["logs"]->add_log("varnish::purge_single_url_cache", "Response body: $body");
+
+        }
+
+        $this->objects["logs"]->add_log("varnish::purge_single_url_cache", "Cache purged for URL $url" );
+
+        return true;
+
+    }
+
+
+    function purge_whole_cache( &$error ) {
+
+        $error = "";
+
+        return $this->purge_single_url_cache( "", $error, true );
+
+    }
+
+
+    function ajax_purge_whole_varnish_cache() {
+
+        check_ajax_referer( 'ajax-nonce-string', 'security' );
+
+        $return_array = array("status" => "ok");
+        $error = "";
+
+        if( ! $this->purge_whole_cache( $error) ) {
+            $return_array["status"] = "error";
+            $return_array["error"] = $error;
+            die(json_encode($return_array));
+        }
+
+        $this->objects["logs"]->add_log("varnish::ajax_purge_whole_varnish_cache", "Purge whole Varnish cache" );
+
+        $return_array["success_msg"] = __("Varnish cache purged successfully!", 'wp-cloudflare-page-cache');
+
+        die(json_encode($return_array));
+
+    }
+
+}

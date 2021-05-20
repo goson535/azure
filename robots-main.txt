@@ -1,0 +1,80 @@
+User-agent: * # Для всех поисковых систем, кроме Яндекса и Гугла
+Disallow: /cgi-bin
+Disallow: /?
+Disallow: /wp-
+Disallow: *?s=
+Disallow: *&s=
+Disallow: /search/
+Disallow: /author/
+Disallow: /users/
+Disallow: */trackback
+Disallow: */feed
+Disallow: */rss
+Disallow: */embed
+Disallow: /xmlrpc.php
+Disallow: *utm=
+Disallow: *openstat=
+Disallow: /tag/ # Закрываем метки
+Disallow: /readme.html # Закрываем бесполезный мануал по установке WordPress (лежит в корне)
+Disallow: *?replytocom
+Disallow: /casino/
+Allow: */uploads
+
+User-agent: GoogleBot # Для Гугла
+Disallow: /cgi-bin
+Disallow: /?
+Disallow: /wp-
+Disallow: *?s=
+Disallow: *&s=
+Disallow: /search/
+Disallow: /author/
+Disallow: /users/
+Disallow: */trackback
+Disallow: */feed
+Disallow: */rss
+Disallow: */embed
+Disallow: /xmlrpc.php
+Disallow: *utm=
+Disallow: *openstat=
+Disallow: /tag/ # Закрываем метки
+Disallow: /readme.html
+Disallow: *?replytocom
+Allow: */uploads
+Allow: /*/*.js
+Allow: /*/*.css
+Allow: /wp-*.png
+Allow: /wp-*.jpg
+Allow: /wp-*.jpeg
+Allow: /wp-*.gif
+Allow: /wp-admin/admin-ajax.php
+
+User-agent: Yandex # Для Яндекса
+Disallow: /cgi-bin
+Disallow: /?
+Disallow: /wp-
+Disallow: *?s=
+Disallow: *&s=
+Disallow: /search/
+Disallow: /author/
+Disallow: /users/
+Disallow: */trackback
+Disallow: */feed
+Disallow: */rss
+Disallow: */embed
+Disallow: /xmlrpc.php
+Disallow: /tag/ # Закрываем метки
+Disallow: /readme.html
+Disallow: *?replytocom
+Disallow: /casino/
+Allow: */uploads
+Allow: /*/*.js
+Allow: /*/*.css
+Allow: /wp-*.png
+Allow: /wp-*.jpg
+Allow: /wp-*.jpeg
+Allow: /wp-*.gif
+Allow: /wp-admin/admin-ajax.php
+Clean-Param: utm_source&utm_medium&utm_campaign
+Clean-Param: openstat
+
+Sitemap: https://topfastcasino1.com/sitemap_index.xml # Карта сайта, меняем site.com на нужный адрес.

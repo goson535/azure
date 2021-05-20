@@ -1,0 +1,2065 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: jGambling\n"
+"POT-Creation-Date: 2020-01-10 19:42+0200\n"
+"PO-Revision-Date: 2020-01-10 19:49+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:8
+msgid "Unfortunately, the page you are on was not found. Try to go to"
+msgstr ""
+"К сожалению, страница на которую Вы перешли не найдена. Попробуйте перейти на"
+
+#: 404.php:9
+msgid "homepage"
+msgstr "главную страницу"
+
+#: 404.php:9
+msgid "and try again."
+msgstr "и повторите попытку снова."
+
+#: archive-bonus.php:13 includes/core/meta-fields.php:69
+#: includes/core/post-type.php:132 includes/core/post-type.php:133
+#: includes/core/post-type.php:134 includes/core/post-type.php:135
+#: includes/core/post-type.php:161 includes/core/post-type.php:162
+#: search.php:65
+msgid "Bonuses"
+msgstr "Бонусы"
+
+#: archive-bonus.php:40 taxonomy-type.php:41
+msgid "No bonus found"
+msgstr "Бонусы не найдены"
+
+#: archive-bonus.php:50 archive-slots.php:50 functions.php:77
+#: includes/ajax_handlers/ajax_filter_bonus.php:57
+#: includes/ajax_handlers/ajax_filter_slots.php:82
+#: includes/shortcodes/shortcode-grid.php:67 index.php:32
+#: parts/casino-reviews.php:62 taxonomy-software.php:52 taxonomy-type.php:51
+msgid "Load more"
+msgstr "Загрузить еще"
+
+#: archive-bonus.php:75
+msgid "Find by bonus name"
+msgstr "Поиск по имени бонуса"
+
+#: archive-casino.php:17 includes/core/meta-fields.php:55 search.php:17
+msgid "Casinos"
+msgstr "Казино"
+
+#: archive-casino.php:21
+msgid "Total: "
+msgstr "Всего: "
+
+#: archive-slots.php:13 includes/core/meta-fields.php:62
+#: includes/core/post-type.php:69 includes/core/post-type.php:70
+#: includes/core/post-type.php:71 includes/core/post-type.php:72
+#: includes/core/post-type.php:98 includes/core/post-type.php:99 search.php:47
+msgid "Slots"
+msgstr "Слоты"
+
+#: archive-slots.php:40
+msgid "Slots not found!"
+msgstr "Игровые автоматы не найдены!"
+
+#: archive-slots.php:74
+msgid "Find by slot name..."
+msgstr "Поиск по имени слота..."
+
+#: archive-slots.php:79
+msgid "Game Providers"
+msgstr "Игровой провайдер"
+
+#: archive-slots.php:93 includes/core/meta-fields.php:283
+msgid "Bonus game"
+msgstr "Бонусная игра"
+
+#: archive-slots.php:94 includes/core/meta-fields.php:284 single-slots.php:104
+msgid "Free Spins"
+msgstr "Бесплатные вращения"
+
+#: archive-slots.php:95 includes/core/meta-fields.php:285
+msgid "Scatter symbol"
+msgstr "Scatter символ"
+
+#: archive-slots.php:96 includes/core/meta-fields.php:286 single-slots.php:117
+msgid "Wild symbol"
+msgstr "Wild символ"
+
+#: archive-slots.php:97 includes/core/meta-fields.php:287 single-slots.php:124
+msgid "Fast spin"
+msgstr "Быстрое вращение"
+
+#: category.php:34
+msgid "Load More"
+msgstr "Загрузить еще"
+
+#: comments.php:29
+msgid "Discussion"
+msgstr "Обсуждение"
+
+#: comments.php:44 includes/ajax_handlers/casino_reviews.php:23
+#: loop/casino-review-item.php:12 parts/casino-reviews.php:35
+msgid "Published"
+msgstr "Опубликовано"
+
+#: comments.php:52
+msgid "No comments"
+msgstr "Нет комментариев"
+
+#: comments.php:54
+msgid "Leave a comment"
+msgstr "Оставить комментарий"
+
+#: comments.php:56
+msgid "Comment*"
+msgstr "Комментарий*"
+
+#: comments.php:58
+msgid "Name"
+msgstr "Имя"
+
+#: comments.php:59 single-casino.php:368 template-page-casino-review.php:331
+msgid "Email"
+msgstr "Почта"
+
+#: comments.php:60
+msgid "Website"
+msgstr "Сайт"
+
+#: comments.php:61
+msgid "Send"
+msgstr "Отправить"
+
+#: comments.php:65
+msgid ""
+"Your comment has been added. After moderation it will be published on the "
+"website."
+msgstr ""
+"Ваш комментарий добавлен. После модерации он будет опубликован на сайте."
+
+#: functions.php:51
+msgid "Top menu"
+msgstr "Верхнее меню"
+
+#: functions.php:52
+msgid "Bottom menu"
+msgstr "Нижнее меню"
+
+#: functions.php:53
+msgid "Knowledge Base on Review Page"
+msgstr "База знаний на странице обзора казино"
+
+#: functions.php:74
+msgid "You have successfully subscribed to the newsletter! Thank!"
+msgstr "Вы успешно подписались на рассылку! Спасибо!"
+
+#: functions.php:75
+msgid "Error!"
+msgstr "Ошибка!"
+
+#: functions.php:76
+msgid "Enter valid email!"
+msgstr "Введите валидную почту!"
+
+#: functions.php:78
+msgid "Saving..."
+msgstr "Сохранение..."
+
+#: functions.php:79
+msgid "Thanks for your feedback, after being moderated, it will be published!"
+msgstr ""
+"Спасибо за Ваш отзыв! После модерации он обязательно будет опубликован!"
+
+#: functions.php:80
+msgid "Make an agreement!"
+msgstr "Примите соглашение!"
+
+#: functions.php:81
+msgid "Enter valid email"
+msgstr "Введите валидную почту!"
+
+#: functions.php:82
+msgid "All field requered!"
+msgstr "Все поля обязательные!"
+
+#: functions.php:83 single-casino.php:160 template-page-casino-review.php:126
+msgid "Show all"
+msgstr "Показать все"
+
+#: functions.php:84
+msgid "Hide all"
+msgstr "Скрыть все"
+
+#: functions.php:85
+msgid "Loading..."
+msgstr "Загрузка..."
+
+#: functions.php:104
+msgid "Your theme is not activated, functionality is limited."
+msgstr "Ваша тема не активирована, функционал ограничен."
+
+#: functions.php:368 includes/shortcodes/shortcode-table.php:36
+#: includes/shortcodes/shrotcode-custom-table.php:25
+msgid "Online casino"
+msgstr "Онлайн казино"
+
+#: includes/ajax_handlers/ajax_filter_bonus.php:37
+#: includes/ajax_handlers/ajax_filter_slots.php:62
+#: includes/ajax_handlers/bonus_loadmore.php:13
+#: includes/ajax_handlers/slots_loadmore.php:13
+msgid "Nothing found..."
+msgstr "Ничего не найдено..."
+
+#: includes/core/activation.php:13
+msgid "Activation"
+msgstr "Активация"
+
+#: includes/core/activation.php:19
+msgid "Theme Activation"
+msgstr "Активация"
+
+#: includes/core/activation.php:21
+msgid ""
+"Your theme is already activated. You can unlink a license to link to another "
+"domain."
+msgstr ""
+"Ваш шаблон уже активирован. Вы можете отвязать лицензию чтобы привязать её к "
+"другому домену."
+
+#: includes/core/activation.php:23
+msgid ""
+"Your theme is not yet activated. After activation, the full functionality of "
+"the template will be available."
+msgstr "Ваша тема не активирована, функционал ограничен."
+
+#: includes/core/activation.php:74
+msgid ""
+"Enter the activation key for the template you received when purchasing this "
+"template."
+msgstr "Введите ключ активации который Вы получили после покупки шаблона."
+
+#: includes/core/activation.php:75
+msgid "After activacion refresh page =)."
+msgstr "После активации обновите страницу =)."
+
+#. Template Name of the plugin/theme
+#: includes/core/breadcrumbs.php:15 includes/widgets_area.php:4
+msgid "Homepage"
+msgstr "Главная"
+
+#: includes/core/breadcrumbs.php:18
+msgid "Search result for"
+msgstr "Результаты поиска для"
+
+#: includes/core/breadcrumbs.php:19
+msgid "Tags"
+msgstr "Теги"
+
+#: includes/core/breadcrumbs.php:20
+msgid "Author articles"
+msgstr "Автор"
+
+#: includes/core/breadcrumbs.php:21
+msgid "Error 404"
+msgstr "Ошибка 404"
+
+#: includes/core/breadcrumbs.php:22
+msgid "Page"
+msgstr "Страница"
+
+#: includes/core/breadcrumbs.php:23
+msgid "Comment page"
+msgstr "Страница комментариев"
+
+#: includes/core/meta-fields.php:12
+msgid "General Options"
+msgstr "Общие настройки"
+
+#: includes/core/meta-fields.php:13
+msgid "Header"
+msgstr "Шапка"
+
+#: includes/core/meta-fields.php:14
+msgid "Head"
+msgstr "Выберите шаблон шапки сайта"
+
+#: includes/core/meta-fields.php:19
+msgid "Header height v2(157 or 250)"
+msgstr "Высота шапки v2(157 или 250)"
+
+#: includes/core/meta-fields.php:20
+msgid "Hide search form from header"
+msgstr "Скрыть форму поиска из шапки"
+
+#: includes/core/meta-fields.php:21
+msgid "Hide buttom menu from header"
+msgstr "Скрыть нижнее меню из шапки"
+
+#: includes/core/meta-fields.php:22
+msgid "Hide comment form from posts"
+msgstr "Скрыть комментирование из статей"
+
+#: includes/core/meta-fields.php:23
+msgid "Hide breadcrumbs"
+msgstr "Скрыть хлебные крошки везде"
+
+#: includes/core/meta-fields.php:24
+msgid "Site logo(134*30)"
+msgstr "Логотип сайта(134*30)"
+
+#: includes/core/meta-fields.php:25
+msgid "Comments"
+msgstr "Комментарии"
+
+#: includes/core/meta-fields.php:26
+msgid "Comment count for one AJAX load"
+msgstr "Количество комментариев за одну AJAX загрузку"
+
+#: includes/core/meta-fields.php:27
+msgid "MailChimp integration"
+msgstr "MailChimp интеграция"
+
+#: includes/core/meta-fields.php:28
+msgid "List ID"
+msgstr "List ID"
+
+#: includes/core/meta-fields.php:29
+msgid "Api key"
+msgstr "Api key"
+
+#: includes/core/meta-fields.php:30
+msgid "Server name API"
+msgstr "Server name API"
+
+#: includes/core/meta-fields.php:32
+msgid "Homepage banner"
+msgstr "Баннер на главной"
+
+#: includes/core/meta-fields.php:33
+msgid "Image banner(1200*...)"
+msgstr "Баннер(1200*...)"
+
+#: includes/core/meta-fields.php:34
+msgid "Image link"
+msgstr "Ссылка баннера"
+
+#: includes/core/meta-fields.php:35
+msgid "Custom Codes"
+msgstr "Произвольные коды"
+
+#: includes/core/meta-fields.php:36
+msgid "Custom code in header"
+msgstr "Код в шапке сайта"
+
+#: includes/core/meta-fields.php:37
+msgid "Custom code in footer"
+msgstr "Код в футере"
+
+#: includes/core/meta-fields.php:40
+msgid "Taxonomy Options"
+msgstr "Параметры таксономий"
+
+#: includes/core/meta-fields.php:41
+msgid ""
+"Casino slug (Default 'casino')(For delete slug install plugin 'Remove CPT "
+"base')"
+msgstr ""
+"Казино слаг (По умолчанию 'casino')(Чтобы удалить его установите плагин "
+"'Remove CPT base')"
+
+#: includes/core/meta-fields.php:42
+msgid ""
+"Bonus slug (Default 'bonus')(For delete slug install plugin 'Remove CPT "
+"base')"
+msgstr ""
+"Бонусы слаг (По умолчанию 'bonus')(Чтобы удалить его установите плагин "
+"'Remove CPT base')"
+
+#: includes/core/meta-fields.php:43
+msgid ""
+"Slots slug (Default 'slots')(For delete slug install plugin 'Remove CPT "
+"base')"
+msgstr ""
+"Слоты слаг (По умолчанию 'slots')(Чтобы удалить его установите плагин "
+"'Remove CPT base')"
+
+#: includes/core/meta-fields.php:44
+msgid "Taxonomy visibility"
+msgstr "Видимость таксономий"
+
+#: includes/core/meta-fields.php:45
+msgid "Don't create pages for taxonomy terms 'Deposit Methods'"
+msgstr "Не создавать страницы для термов таксономии 'Методы депозита'"
+
+#: includes/core/meta-fields.php:46
+msgid "Don't create pages for taxonomy terms 'Currency'"
+msgstr "Не создавать страницы для термов таксономии 'Валюты счета'"
+
+#: includes/core/meta-fields.php:47
+msgid "Don't create pages for taxonomy terms 'Cashout'"
+msgstr "Не создавать страницы для термов таксономии 'Методы вывода'"
+
+#: includes/core/meta-fields.php:48
+msgid "Don't create pages for taxonomy terms 'Soft'(Casino)"
+msgstr "Не создавать страницы для термов таксономии 'Софт'(Для казино)"
+
+#: includes/core/meta-fields.php:49
+msgid "Don't create pages for taxonomy terms 'Restricted Country'"
+msgstr "Не создавать страницы для термов таксономии 'Запрещенные страны'"
+
+#: includes/core/meta-fields.php:50
+msgid "Don't create pages for taxonomy terms 'License'"
+msgstr "Не создавать страницы для термов таксономии 'Лицензии'"
+
+#: includes/core/meta-fields.php:51
+msgid "Don't create pages for taxonomy terms 'Software'(Slots)"
+msgstr "Не создавать страницы для термов таксономии 'Софт'(Для слотов)"
+
+#: includes/core/meta-fields.php:52
+msgid "Don't create pages for taxonomy terms 'Bonus Type'"
+msgstr "Не создавать страницы для термов таксономии 'Тип бонуса'"
+
+#: includes/core/meta-fields.php:56
+msgid "H1 on casino archive page"
+msgstr "H1 на странице архива казино"
+
+#: includes/core/meta-fields.php:57
+msgid "Text before casino table on archive page"
+msgstr "Текст до таблицы на странице архива казино"
+
+#: includes/core/meta-fields.php:58
+msgid "Text after casino table on archive page"
+msgstr "Текст после таблицы на странице архива казино"
+
+#: includes/core/meta-fields.php:59
+msgid "Hide shema from casino page"
+msgstr "Скрыть микроразметку со страниц казино"
+
+#: includes/core/meta-fields.php:63
+msgid "Slot count on slots archive page"
+msgstr "Количество слотов на странице архива слотов"
+
+#: includes/core/meta-fields.php:64
+msgid "H1 on slots archive page"
+msgstr "H1 на странице архива слотов"
+
+#: includes/core/meta-fields.php:65
+msgid "Text before slots list on archive page"
+msgstr "Текст до списка на странице архива слотов"
+
+#: includes/core/meta-fields.php:66
+msgid "Text after slots list on archive page"
+msgstr "Текст после списка на странице архива слотов"
+
+#: includes/core/meta-fields.php:67
+msgid "Background image under game frame on slot page"
+msgstr "Фоновая картинка для места где демо игра слота(для всех где не задана)"
+
+#: includes/core/meta-fields.php:70
+msgid "Show on bonus item casino logo"
+msgstr "Показать картинку казино на элементе бонусы"
+
+#: includes/core/meta-fields.php:71
+msgid "Count of bonus items per AJAX load on archive page"
+msgstr "Количество бонусов за одну AJAX загрузку на странице архива бонусов"
+
+#: includes/core/meta-fields.php:72
+msgid "H1 on bonus archive page"
+msgstr "H1 на странице архива бонусов"
+
+#: includes/core/meta-fields.php:73
+msgid "Text before bonus list on archive page"
+msgstr "Текст до списка на странице архива бонусов"
+
+#: includes/core/meta-fields.php:74
+msgid "Text after bonus list on archive page"
+msgstr "Текст после списка на странице архива бонусов"
+
+#: includes/core/meta-fields.php:75
+msgid "Bonus item background color"
+msgstr "Фон блока бонуса"
+
+#: includes/core/meta-fields.php:76
+msgid "Bonus item text color"
+msgstr "Цвет текст на блоке бонуса"
+
+#: includes/core/meta-fields.php:77
+msgid "Show casino from CPT in casino review page"
+msgstr "Показывать привязанные бонусы на странице обзора казино"
+
+#: includes/core/meta-fields.php:79
+msgid "Select taxonomy WELCOME BONUS"
+msgstr "Выберите таксономию для Приветственного бонуса"
+
+#: includes/core/meta-fields.php:92
+msgid "Select taxonomy FREESPINS"
+msgstr "Выберите таксономию для Бесплатных вращений"
+
+#: includes/core/meta-fields.php:104
+msgid "Select taxonomy NO DEPOSIT BONUS"
+msgstr "Выберите таксономию для Бездепозитного бонуса"
+
+#: includes/core/meta-fields.php:116
+msgid "Select taxonomy RELOAD"
+msgstr "Выберите таксономию для Релоад бонуса"
+
+#: includes/core/meta-fields.php:129
+msgid "Select taxonomy CASHBACK"
+msgstr "Выберите таксономию для Кешбек бонуса"
+
+#: includes/core/meta-fields.php:143
+msgid "Theme colors"
+msgstr "Цвета шаблона"
+
+#: includes/core/meta-fields.php:144
+msgid "Menu background"
+msgstr "Цвет меню"
+
+#: includes/core/meta-fields.php:145
+msgid "Menu background(v2)"
+msgstr "Цвет меню(v2)"
+
+#: includes/core/meta-fields.php:146
+msgid "Buttons"
+msgstr "Кнопки"
+
+#: includes/core/meta-fields.php:147
+msgid "Button colors in tables"
+msgstr "Цвет кнопок в таблице"
+
+#: includes/core/meta-fields.php:148
+msgid "Button colors on hover in table"
+msgstr "Цвет кнопок в таблице при наведении"
+
+#: includes/core/meta-fields.php:149
+msgid "Button color in TOP widget"
+msgstr "Цвет кнопок в виджете ТОП"
+
+#: includes/core/meta-fields.php:150
+msgid "Button color on hover in TOP widget"
+msgstr "Цвет кнопок в виджете ТОП при наведении"
+
+#: includes/core/meta-fields.php:151
+msgid "Button color in casino grid"
+msgstr "Цвет кнопок в списке казино сеткой"
+
+#: includes/core/meta-fields.php:152
+msgid "Buton color on hover in grid casino"
+msgstr "Цвет кнопок в списке казино сеткой при наведении"
+
+#: includes/core/meta-fields.php:153
+msgid "Others buttons color"
+msgstr "Цвет кнопок в других случаях"
+
+#: includes/core/meta-fields.php:154
+msgid "Others buttons color on hover"
+msgstr "Цвет кнопок в других случаях при наведении"
+
+#: includes/core/meta-fields.php:155
+msgid "Bonus blocks color in single casino page"
+msgstr "Цвета блоков бонуса на внутряке обзора казино"
+
+#: includes/core/meta-fields.php:156
+msgid "No-deposit bonus backgound color"
+msgstr "Цвет фона бездепозитного бонуса"
+
+#: includes/core/meta-fields.php:157
+msgid "Welcome bonus backgound color"
+msgstr "Цвет фона приветственного бонуса"
+
+#: includes/core/meta-fields.php:158
+msgid "Reload bonus backgound color"
+msgstr "Цвет фона релоад бонуса"
+
+#: includes/core/meta-fields.php:159
+msgid "FreeSpins bonus backgound color"
+msgstr "Цвет фона фриспинов"
+
+#: includes/core/meta-fields.php:160
+msgid "Cashback bonus backgound color"
+msgstr "Цвет фона кешбек бонуса"
+
+#: includes/core/meta-fields.php:161 includes/core/meta-fields.php:162
+msgid "Stars color"
+msgstr "Цвет звездочек"
+
+#: includes/core/meta-fields.php:164
+msgid "Social networks"
+msgstr "Социальные сети"
+
+#: includes/core/meta-fields.php:171
+msgid "Review fields"
+msgstr "Поля отзывов"
+
+#: includes/core/meta-fields.php:173
+msgid "User rating"
+msgstr "Рейтинг"
+
+#: includes/core/meta-fields.php:174
+msgid "Positive"
+msgstr "Плюсы"
+
+#: includes/core/meta-fields.php:175
+msgid "Negative"
+msgstr "Минусы"
+
+#: includes/core/meta-fields.php:179
+msgid "Category fields"
+msgstr "Поля категорий"
+
+#: includes/core/meta-fields.php:182
+msgid "Text before posts list"
+msgstr "Текст до списка постов"
+
+#: includes/core/meta-fields.php:183
+msgid "Text after post list"
+msgstr "Текст после списка постов"
+
+#: includes/core/meta-fields.php:188
+msgid "Casino fields"
+msgstr "Поля обзоров казино"
+
+#: includes/core/meta-fields.php:191 includes/core/meta-fields.php:280
+#: includes/core/meta-fields.php:298
+msgid "General information"
+msgstr "Общие настройки"
+
+#: includes/core/meta-fields.php:192
+msgid "Refferal link to casino(or redirect page)"
+msgstr "Реферальная ссылка на казино(или на страницу редиректа)"
+
+#: includes/core/meta-fields.php:193
+msgid "Refferal button text"
+msgstr ""
+
+#: includes/core/meta-fields.php:194
+msgid "Custom H1 title. Leave blank if need to use casino name."
+msgstr ""
+"Произвольный H1, оставьте поле пустым чтобы вывести название казино как H1."
+
+#: includes/core/meta-fields.php:195
+msgid "Rating"
+msgstr "Рейтинг"
+
+#: includes/core/meta-fields.php:196
+msgid "Logo casino for grid(211*84)"
+msgstr "Логотип казино для сетки(211*84)"
+
+#: includes/core/meta-fields.php:197
+msgid "Logo casino for table(40*40)"
+msgstr "Логотип казино для таблицы(40*40)"
+
+#: includes/core/meta-fields.php:198
+msgid "Logo casino for single page(194*108)"
+msgstr "Логотип казино для внутряка(194*108)"
+
+#: includes/core/meta-fields.php:199
+msgid "Link 'All about ... casino'"
+msgstr "Ссылка \"Все о регистрации в … казино\""
+
+#: includes/core/meta-fields.php:200
+msgid "Available from PC"
+msgstr "Доступность с компьютера"
+
+#: includes/core/meta-fields.php:201
+msgid "Available from tablet"
+msgstr "Доступность с планшета"
+
+#: includes/core/meta-fields.php:202
+msgid "Available from phone"
+msgstr "Доступность с телефона"
+
+#: includes/core/meta-fields.php:203 single-casino.php:290
+#: template-page-casino-review.php:253
+msgid "Official site"
+msgstr "Официальный сайт"
+
+#: includes/core/meta-fields.php:204
+msgid "Founded age"
+msgstr "Год основания"
+
+#: includes/core/meta-fields.php:205
+msgid "Minimun deposit amount"
+msgstr "Минимальная сумма депозита"
+
+#: includes/core/meta-fields.php:206
+msgid "Minimum cash withdrawal"
+msgstr "Минимальная сумма вывода"
+
+#: includes/core/meta-fields.php:207
+msgid "Lang"
+msgstr "Язык"
+
+#: includes/core/meta-fields.php:209 single-casino.php:374
+#: template-page-casino-review.php:337
+msgid "Live-chat"
+msgstr "Лайв-чат"
+
+#: includes/core/meta-fields.php:210 single-casino.php:358
+#: single-casino.php:380 template-page-casino-review.php:321
+#: template-page-casino-review.php:343
+msgid "Support"
+msgstr "Поддержка"
+
+#: includes/core/meta-fields.php:211
+msgid "Custom column data for table"
+msgstr "Произвольный столбец в таблице"
+
+#: includes/core/meta-fields.php:214
+msgid "Custom fields"
+msgstr "Дополнительные поля"
+
+#: includes/core/meta-fields.php:215
+msgid "Fields for 'Basic information'"
+msgstr "Поля для 'Общая информация'"
+
+#: includes/core/meta-fields.php:217 includes/core/meta-fields.php:223
+#: includes/core/meta-fields.php:229
+msgid "Fields title"
+msgstr "Заголовок поля"
+
+#: includes/core/meta-fields.php:218 includes/core/meta-fields.php:224
+#: includes/core/meta-fields.php:230
+msgid "Field description"
+msgstr "Описание поля"
+
+#: includes/core/meta-fields.php:221
+msgid "Fields for 'Payment info'"
+msgstr "Поля для 'Платежная информация'"
+
+#: includes/core/meta-fields.php:227
+msgid "Fields for 'Support'"
+msgstr "Поля для 'Поддержка'"
+
+#: includes/core/meta-fields.php:235 parts/casino-reviews.php:93
+#: single-casino.php:413 template-page-casino-review.php:376
+msgid "Casino advantages"
+msgstr "Преимущества казино"
+
+#: includes/core/meta-fields.php:236
+msgid "Casino advantages(list)"
+msgstr "Преимущества(список)"
+
+#: includes/core/meta-fields.php:239
+msgid "Advantage"
+msgstr "Плюс"
+
+#: includes/core/meta-fields.php:244 parts/casino-reviews.php:94
+#: single-casino.php:429 template-page-casino-review.php:391
+msgid "Casino cons"
+msgstr "Недостатки казино"
+
+#: includes/core/meta-fields.php:245
+msgid "Casino cons(list)"
+msgstr "Недостатки казино"
+
+#: includes/core/meta-fields.php:248
+msgid "Cons"
+msgstr "Недостаток"
+
+#: includes/core/meta-fields.php:253 includes/widgets/widget-top-bonuses.php:23
+msgid "Casino bonuses"
+msgstr "Бонусы казино"
+
+#: includes/core/meta-fields.php:254 loop/casino-grid-item.php:27
+msgid "Welcome bonus"
+msgstr "Приветственный бонус"
+
+#: includes/core/meta-fields.php:255
+msgid "Welcome bonus amount"
+msgstr "Сумма приветственного бонуса"
+
+#: includes/core/meta-fields.php:256
+msgid "Welcome bonus refferal"
+msgstr "Реф. ссылка Приветственный бонус"
+
+#: includes/core/meta-fields.php:257
+msgid "Welcome bonus description"
+msgstr "Описание приветственного бонуса"
+
+#: includes/core/meta-fields.php:258
+msgid "Free spins"
+msgstr "Фриспины"
+
+#: includes/core/meta-fields.php:259
+msgid "Free Spins count"
+msgstr "Количество фриспинов"
+
+#: includes/core/meta-fields.php:260
+msgid "Free Spins refferal"
+msgstr "Реф. ссылка  Бесплатные вращения"
+
+#: includes/core/meta-fields.php:261
+msgid "Free Spins description"
+msgstr "Описание фриспинов"
+
+#: includes/core/meta-fields.php:262 includes/shortcodes/shortcode-table.php:40
+#: includes/shortcodes/shortcode-table.php:205
+#: includes/shortcodes/shrotcode-custom-table.php:29
+msgid "No-deposit bonus"
+msgstr "Бездепозитный бонус"
+
+#: includes/core/meta-fields.php:263
+msgid "No-deposit bonus refferal"
+msgstr "Реф. ссылка  Бездепозитный бонус"
+
+#: includes/core/meta-fields.php:264
+msgid "No-deposit bonus amount"
+msgstr "Сумма бездепозитного бонуса"
+
+#: includes/core/meta-fields.php:265
+msgid "No-deposit bonus description"
+msgstr "Описание бездепозитного бонуса"
+
+#: includes/core/meta-fields.php:266 includes/shortcodes/shortcode-table.php:44
+#: includes/shortcodes/shortcode-table.php:220
+#: includes/shortcodes/shrotcode-custom-table.php:33
+msgid "Reload bonus"
+msgstr "Релоад бонус"
+
+#: includes/core/meta-fields.php:267
+msgid "Reload bonus amount"
+msgstr "Сумма релоад бонуса"
+
+#: includes/core/meta-fields.php:268
+msgid "Reload bonus refferal"
+msgstr "Реф. ссылка  Релоад бонус"
+
+#: includes/core/meta-fields.php:269
+msgid "Reload bonus description"
+msgstr "Описание релоад бонуса"
+
+#: includes/core/meta-fields.php:270 includes/shortcodes/shortcode-table.php:46
+#: includes/shortcodes/shortcode-table.php:228
+#: includes/shortcodes/shrotcode-custom-table.php:35
+msgid "Cashback bonus"
+msgstr "Кешбек бонус"
+
+#: includes/core/meta-fields.php:271
+msgid "Cashback bonus amount"
+msgstr "Сумма кешбек бонуса"
+
+#: includes/core/meta-fields.php:272
+msgid "Cashback bonus refferal"
+msgstr "Реф. ссылка  Кешбек бонус"
+
+#: includes/core/meta-fields.php:273
+msgid "Cashback bonus description"
+msgstr "Описание кешбек бонуса"
+
+#: includes/core/meta-fields.php:278
+msgid "Slots field"
+msgstr "Поля слотов"
+
+#: includes/core/meta-fields.php:281
+msgid "Button 'Play for real'"
+msgstr "Кнопка \"Играть на деньги\""
+
+#: includes/core/meta-fields.php:282
+msgid "Slot image for grid list(165*245)"
+msgstr "Картинка для списка слотов(165*245)"
+
+#: includes/core/meta-fields.php:289
+msgid "Slot demo"
+msgstr "Демо слота"
+
+#: includes/core/meta-fields.php:290
+msgid "Slot IFRAME(1200*600)"
+msgstr "Фрейм слота(1200*600)"
+
+#: includes/core/meta-fields.php:296
+msgid "Bonus fields"
+msgstr "Поля бонусов"
+
+#: includes/core/meta-fields.php:299
+msgid "Select casino to which the bonus applies"
+msgstr "Выберите казино к которому относится данный бонус"
+
+#: includes/core/meta-fields.php:306
+msgid "Bonus short description"
+msgstr "Короткое описание бонуса"
+
+#: includes/core/meta-fields.php:307 single-bonus.php:58
+msgid "Wager"
+msgstr "Вейджер"
+
+#: includes/core/meta-fields.php:308
+msgid "Bonus code (or n/a)"
+msgstr "Бонус код(или n/a)"
+
+#: includes/core/meta-fields.php:309 single-bonus.php:64
+msgid "Bonus amount"
+msgstr "Сумма бонуса"
+
+#: includes/core/meta-fields.php:310
+msgid "Reffelar link(or from casino)"
+msgstr "Реферальная ссылка на казино(или с привязанного казино)"
+
+#: includes/core/meta-fields.php:313
+msgid "Deposit method fields"
+msgstr "Поля методов депозита"
+
+#: includes/core/meta-fields.php:316
+msgid "Mini image for sidebar in widget"
+msgstr "Мини картинка для сайдбара"
+
+#: includes/core/meta-fields.php:317 includes/core/meta-fields.php:329
+#: includes/core/meta-fields.php:349 includes/core/meta-fields.php:358
+#: includes/core/meta-fields.php:379 includes/core/meta-fields.php:391
+#: includes/core/meta-fields.php:401
+msgid "Image for archive page(195*127)"
+msgstr "Фото для страницы архива(195*127)"
+
+#: includes/core/meta-fields.php:318 includes/core/meta-fields.php:328
+#: includes/core/meta-fields.php:338 includes/core/meta-fields.php:348
+#: includes/core/meta-fields.php:359 includes/core/meta-fields.php:369
+#: includes/core/meta-fields.php:378 includes/core/meta-fields.php:390
+#: includes/core/meta-fields.php:400
+msgid "Custom H1"
+msgstr "Произвольный H1"
+
+#: includes/core/meta-fields.php:319 includes/core/meta-fields.php:330
+#: includes/core/meta-fields.php:339 includes/core/meta-fields.php:350
+#: includes/core/meta-fields.php:380 includes/core/meta-fields.php:392
+#: includes/core/meta-fields.php:402
+msgid "Text before table"
+msgstr "Текст до таблицы"
+
+#: includes/core/meta-fields.php:320 includes/core/meta-fields.php:331
+#: includes/core/meta-fields.php:340 includes/core/meta-fields.php:351
+#: includes/core/meta-fields.php:383 includes/core/meta-fields.php:393
+#: includes/core/meta-fields.php:403
+msgid "Hide link to taxonomy on single-casino page"
+msgstr "Скрыть ссылку на страницу таксономии на странице обзора казино"
+
+#: includes/core/meta-fields.php:325
+msgid "Currency fields"
+msgstr "Поля валют казино"
+
+#: includes/core/meta-fields.php:335
+msgid "Withdrawal method fields"
+msgstr "Поля методов вывода"
+
+#: includes/core/meta-fields.php:345 includes/core/meta-fields.php:354
+msgid "Soft fields"
+msgstr "Поля софта"
+
+#: includes/core/meta-fields.php:357
+msgid "Mini image for sidebar"
+msgstr "Мини картинки для сайбдара"
+
+#: includes/core/meta-fields.php:360
+msgid "Text before slots grid"
+msgstr "Текст до плитки слотов"
+
+#: includes/core/meta-fields.php:366 includes/core/taxonomy.php:315
+#: includes/core/taxonomy.php:316 includes/core/taxonomy.php:317
+#: single-bonus.php:53
+msgid "Bonus type"
+msgstr "Тип бонуса"
+
+#: includes/core/meta-fields.php:370
+msgid "Text before bonus list"
+msgstr "Текст до списка бонусов"
+
+#: includes/core/meta-fields.php:375
+msgid "Restricted country fields"
+msgstr "Поля запрещенных стран"
+
+#: includes/core/meta-fields.php:381
+msgid "Country ISO code"
+msgstr "ISO код страны"
+
+#: includes/core/meta-fields.php:382
+msgid "Country image(for GEO)"
+msgstr "Флаг страны(Для ГЕО)"
+
+#: includes/core/meta-fields.php:387
+msgid "Casino license fields"
+msgstr "Поля лицензий казино"
+
+#: includes/core/meta-fields.php:397
+msgid "Casino type fields"
+msgstr "Поля для типа бонусов"
+
+#: includes/core/post-type.php:5 includes/core/post-type.php:6
+#: includes/core/post-type.php:7 includes/core/post-type.php:8
+#: includes/core/post-type.php:34 includes/core/post-type.php:35
+msgid "Casino"
+msgstr "Казино"
+
+#: includes/core/post-type.php:9
+msgid "Casino Archive"
+msgstr "Архив казино"
+
+#: includes/core/post-type.php:10 includes/core/post-type.php:74
+#: includes/core/post-type.php:137
+msgid "Attributes"
+msgstr "Атрибуты"
+
+#: includes/core/post-type.php:11 includes/core/post-type.php:75
+#: includes/core/post-type.php:138 includes/core/taxonomy.php:11
+#: includes/core/taxonomy.php:57 includes/core/taxonomy.php:100
+#: includes/core/taxonomy.php:144 includes/core/taxonomy.php:188
+#: includes/core/taxonomy.php:232 includes/core/taxonomy.php:276
+#: includes/core/taxonomy.php:320 includes/core/taxonomy.php:363
+msgid "Parent Item:"
+msgstr "Родитель:"
+
+#: includes/core/post-type.php:12
+msgid "All casino"
+msgstr "Все казино"
+
+#: includes/core/post-type.php:13 includes/core/post-type.php:14
+#: includes/core/post-type.php:15
+msgid "Add casino"
+msgstr "Добавить казино"
+
+#: includes/core/post-type.php:16
+msgid "Edit casino"
+msgstr "Изменить казино"
+
+#: includes/core/post-type.php:17
+msgid "Update casino"
+msgstr "Обновить казино"
+
+#: includes/core/post-type.php:18 includes/core/post-type.php:19
+msgid "View casino"
+msgstr "Посмотреть казино"
+
+#: includes/core/post-type.php:20 includes/core/post-type.php:84
+#: includes/core/post-type.php:147
+msgid "Find"
+msgstr "Поиск"
+
+#: includes/core/post-type.php:21 includes/core/post-type.php:22
+#: includes/core/post-type.php:85 includes/core/post-type.php:86
+#: includes/core/post-type.php:148 includes/core/post-type.php:149
+msgid "Nothing found"
+msgstr "Ничего не найдено"
+
+#: includes/core/post-type.php:23 includes/core/post-type.php:87
+#: includes/core/post-type.php:150
+msgid "Thumbnail"
+msgstr "Миниатюра"
+
+#: includes/core/post-type.php:24 includes/core/post-type.php:88
+msgid "Set Thumbnail"
+msgstr "Задать миниатюру"
+
+#: includes/core/post-type.php:25 includes/core/post-type.php:89
+#: includes/core/post-type.php:152
+msgid "Delete Thumbnail"
+msgstr "Удалить миниатюру"
+
+#: includes/core/post-type.php:26 includes/core/post-type.php:90
+#: includes/core/post-type.php:151 includes/core/post-type.php:153
+msgid "Use as Thumbnail"
+msgstr "Использовать как миниатюру"
+
+#: includes/core/post-type.php:27 includes/core/post-type.php:91
+#: includes/core/post-type.php:154
+msgid "Paste"
+msgstr "Вставить"
+
+#: includes/core/post-type.php:28 includes/core/post-type.php:92
+#: includes/core/post-type.php:155
+msgid "Uploaded to this item"
+msgstr "Загрузить"
+
+#: includes/core/post-type.php:29 includes/core/post-type.php:93
+#: includes/core/post-type.php:156 includes/core/taxonomy.php:24
+#: includes/core/taxonomy.php:70 includes/core/taxonomy.php:113
+#: includes/core/taxonomy.php:157 includes/core/taxonomy.php:201
+#: includes/core/taxonomy.php:245 includes/core/taxonomy.php:289
+#: includes/core/taxonomy.php:333 includes/core/taxonomy.php:376
+msgid "Items list"
+msgstr "Список элементов"
+
+#: includes/core/post-type.php:30 includes/core/post-type.php:94
+#: includes/core/post-type.php:157 includes/core/taxonomy.php:25
+#: includes/core/taxonomy.php:71 includes/core/taxonomy.php:114
+#: includes/core/taxonomy.php:158 includes/core/taxonomy.php:202
+#: includes/core/taxonomy.php:246 includes/core/taxonomy.php:290
+#: includes/core/taxonomy.php:334 includes/core/taxonomy.php:377
+msgid "Items list navigation"
+msgstr "Навигация по элементам"
+
+#: includes/core/post-type.php:31 includes/core/post-type.php:95
+#: includes/core/post-type.php:158
+msgid "Filter items list"
+msgstr "Фильтрация"
+
+#: includes/core/post-type.php:73
+msgid "Slots Archive"
+msgstr "Архив слотов"
+
+#: includes/core/post-type.php:76
+msgid "All slots"
+msgstr "Все слоты"
+
+#: includes/core/post-type.php:77 includes/core/post-type.php:78
+#: includes/core/post-type.php:79
+msgid "Add slot"
+msgstr "Добавить слот"
+
+#: includes/core/post-type.php:80
+msgid "Edit slots"
+msgstr "Изменить слот"
+
+#: includes/core/post-type.php:81
+msgid "Update slots"
+msgstr "Обновить слот"
+
+#: includes/core/post-type.php:82 includes/core/post-type.php:83
+msgid "View slot"
+msgstr "Посмотреть слот"
+
+#: includes/core/post-type.php:136
+msgid "Bonuses Archive"
+msgstr "Архив бонусов"
+
+#: includes/core/post-type.php:139
+msgid "All Bonuses"
+msgstr "Все бонусы"
+
+#: includes/core/post-type.php:140 includes/core/post-type.php:141
+#: includes/core/post-type.php:142
+msgid "Add bonus"
+msgstr "Добавить бонус"
+
+#: includes/core/post-type.php:143
+msgid "Edit bonus"
+msgstr "Изменить бонус"
+
+#: includes/core/post-type.php:144
+msgid "Update bonus"
+msgstr "Обновваить бонус"
+
+#: includes/core/post-type.php:145 includes/core/post-type.php:146
+msgid "View bonus"
+msgstr "Посмотреть бонус"
+
+#: includes/core/slots-import.php:53
+msgid "Added this slots: "
+msgstr "Добавлены следующие слоты: "
+
+#: includes/core/slots-import.php:59
+msgid "Select the providers you want to import to the site."
+msgstr "Выберите провайдеров игры которого Вы хотите импортировать на сайт."
+
+#: includes/core/slots-import.php:60
+msgid ""
+"We recommend importing several providers at a time so as not to overload the "
+"server"
+msgstr ""
+"Рекомендуется импортировать по несколько производителей за раз а не все сразу"
+
+#: includes/core/slots-import.php:71
+msgid "Providers"
+msgstr "Провайдер"
+
+#: includes/core/taxonomy.php:6 includes/core/taxonomy.php:7
+#: includes/core/taxonomy.php:8 includes/widgets/widget-deposit-method.php:25
+#: single-casino.php:326 template-page-casino-review.php:289
+msgid "Deposit methods"
+msgstr "Методы депозита"
+
+#: includes/core/taxonomy.php:9
+msgid "All method"
+msgstr "Все методы"
+
+#: includes/core/taxonomy.php:10 includes/core/taxonomy.php:56
+#: includes/core/taxonomy.php:99 includes/core/taxonomy.php:143
+#: includes/core/taxonomy.php:187 includes/core/taxonomy.php:231
+#: includes/core/taxonomy.php:275 includes/core/taxonomy.php:319
+#: includes/core/taxonomy.php:362
+msgid "Parent Item"
+msgstr "Родитель"
+
+#: includes/core/taxonomy.php:12 includes/core/taxonomy.php:58
+#: includes/core/taxonomy.php:101 includes/core/taxonomy.php:145
+#: includes/core/taxonomy.php:189 includes/core/taxonomy.php:233
+#: includes/core/taxonomy.php:277 includes/core/taxonomy.php:321
+#: includes/core/taxonomy.php:364
+msgid "New Item Name"
+msgstr "Новый"
+
+#: includes/core/taxonomy.php:13 includes/core/taxonomy.php:59
+#: includes/core/taxonomy.php:102 includes/core/taxonomy.php:146
+#: includes/core/taxonomy.php:190 includes/core/taxonomy.php:234
+#: includes/core/taxonomy.php:278 includes/core/taxonomy.php:322
+#: includes/core/taxonomy.php:365
+msgid "Add New Item"
+msgstr "Новый"
+
+#: includes/core/taxonomy.php:14 includes/core/taxonomy.php:60
+#: includes/core/taxonomy.php:103 includes/core/taxonomy.php:147
+#: includes/core/taxonomy.php:191 includes/core/taxonomy.php:235
+#: includes/core/taxonomy.php:279 includes/core/taxonomy.php:323
+#: includes/core/taxonomy.php:366
+msgid "Edit Item"
+msgstr "Изменить"
+
+#: includes/core/taxonomy.php:15 includes/core/taxonomy.php:61
+#: includes/core/taxonomy.php:104 includes/core/taxonomy.php:148
+#: includes/core/taxonomy.php:192 includes/core/taxonomy.php:236
+#: includes/core/taxonomy.php:280 includes/core/taxonomy.php:324
+#: includes/core/taxonomy.php:367
+msgid "Update Item"
+msgstr "Обновить"
+
+#: includes/core/taxonomy.php:16 includes/core/taxonomy.php:62
+#: includes/core/taxonomy.php:105 includes/core/taxonomy.php:149
+#: includes/core/taxonomy.php:193 includes/core/taxonomy.php:237
+#: includes/core/taxonomy.php:281 includes/core/taxonomy.php:325
+#: includes/core/taxonomy.php:368
+msgid "View Item"
+msgstr "Посмотреть"
+
+#: includes/core/taxonomy.php:17 includes/core/taxonomy.php:63
+#: includes/core/taxonomy.php:106 includes/core/taxonomy.php:150
+#: includes/core/taxonomy.php:194 includes/core/taxonomy.php:238
+#: includes/core/taxonomy.php:282 includes/core/taxonomy.php:326
+#: includes/core/taxonomy.php:369
+msgid "Separate items with commas"
+msgstr "Разделять элементы"
+
+#: includes/core/taxonomy.php:18 includes/core/taxonomy.php:64
+#: includes/core/taxonomy.php:107 includes/core/taxonomy.php:151
+#: includes/core/taxonomy.php:195 includes/core/taxonomy.php:239
+#: includes/core/taxonomy.php:283 includes/core/taxonomy.php:327
+#: includes/core/taxonomy.php:370
+msgid "Add or remove items"
+msgstr "Добавить или изменить"
+
+#: includes/core/taxonomy.php:19 includes/core/taxonomy.php:65
+#: includes/core/taxonomy.php:108 includes/core/taxonomy.php:152
+#: includes/core/taxonomy.php:196 includes/core/taxonomy.php:240
+#: includes/core/taxonomy.php:284 includes/core/taxonomy.php:328
+#: includes/core/taxonomy.php:371
+msgid "Choose from the most used"
+msgstr "Выбрать из часть используемых"
+
+#: includes/core/taxonomy.php:20 includes/core/taxonomy.php:66
+#: includes/core/taxonomy.php:109 includes/core/taxonomy.php:153
+#: includes/core/taxonomy.php:197 includes/core/taxonomy.php:241
+#: includes/core/taxonomy.php:285 includes/core/taxonomy.php:329
+#: includes/core/taxonomy.php:372
+msgid "Popular Items"
+msgstr "Популярные"
+
+#: includes/core/taxonomy.php:21 includes/core/taxonomy.php:67
+#: includes/core/taxonomy.php:110 includes/core/taxonomy.php:154
+#: includes/core/taxonomy.php:198 includes/core/taxonomy.php:242
+#: includes/core/taxonomy.php:286 includes/core/taxonomy.php:330
+#: includes/core/taxonomy.php:373
+msgid "Search Items"
+msgstr "Поиск"
+
+#: includes/core/taxonomy.php:22 includes/core/taxonomy.php:68
+#: includes/core/taxonomy.php:111 includes/core/taxonomy.php:155
+#: includes/core/taxonomy.php:199 includes/core/taxonomy.php:243
+#: includes/core/taxonomy.php:287 includes/core/taxonomy.php:331
+#: includes/core/taxonomy.php:374
+msgid "Not Found"
+msgstr "Не найдено"
+
+#: includes/core/taxonomy.php:23 includes/core/taxonomy.php:69
+#: includes/core/taxonomy.php:112 includes/core/taxonomy.php:156
+#: includes/core/taxonomy.php:200 includes/core/taxonomy.php:244
+#: includes/core/taxonomy.php:288 includes/core/taxonomy.php:332
+#: includes/core/taxonomy.php:375
+msgid "No items"
+msgstr "Не найдено"
+
+#: includes/core/taxonomy.php:52 includes/core/taxonomy.php:53
+#: includes/core/taxonomy.php:54 single-casino.php:327
+#: template-page-casino-review.php:290
+msgid "Currency"
+msgstr "Валюты счета"
+
+#: includes/core/taxonomy.php:55
+msgid "All Currency"
+msgstr "Все валюты"
+
+#: includes/core/taxonomy.php:95 includes/core/taxonomy.php:96
+#: includes/core/taxonomy.php:97 single-casino.php:328
+#: template-page-casino-review.php:291
+msgid "Withdrawal methods"
+msgstr "Методы вывода"
+
+#: includes/core/taxonomy.php:98
+msgid "All methods"
+msgstr "Все методы"
+
+#: includes/core/taxonomy.php:139 includes/core/taxonomy.php:140
+#: includes/core/taxonomy.php:141
+msgid "Software"
+msgstr "Софт"
+
+#: includes/core/taxonomy.php:142 includes/core/taxonomy.php:274
+msgid "All soft"
+msgstr "Все софты"
+
+#: includes/core/taxonomy.php:183 includes/core/taxonomy.php:184
+#: includes/core/taxonomy.php:185
+msgid "Restricted country"
+msgstr "Запрещенные страны"
+
+#: includes/core/taxonomy.php:186
+msgid "All country"
+msgstr "Все страны"
+
+#: includes/core/taxonomy.php:227 includes/core/taxonomy.php:228
+#: includes/core/taxonomy.php:229
+msgid "Casino license"
+msgstr "Лицензии казино"
+
+#: includes/core/taxonomy.php:230
+msgid "All license"
+msgstr "Все лицензии"
+
+#: includes/core/taxonomy.php:271 includes/core/taxonomy.php:272
+#: includes/core/taxonomy.php:273
+msgid "Soft"
+msgstr "Софт"
+
+#: includes/core/taxonomy.php:318 includes/core/taxonomy.php:361
+msgid "All type"
+msgstr "Все типы"
+
+#: includes/core/taxonomy.php:358 includes/core/taxonomy.php:359
+#: includes/core/taxonomy.php:360
+msgid "Casino type"
+msgstr "Тип казино"
+
+#: includes/libs/carbon-fields/core/Libraries/Plugin_Update_Warning/Plugin_Update_Warning.php:69
+#, php-format
+msgid ""
+"The new version of Carbon Fields is a major update. Please make sure you "
+"have a full backup before updating and test any add-ons or custom "
+"functionality.\n"
+"Developers should review the upgrade guide on %1$s."
+msgstr ""
+"The new version of Carbon Fields is a major update. Please make sure you "
+"have a full backup before updating and test any add-ons or custom "
+"functionality.\n"
+"Developers should review the upgrade guide on %1$s."
+
+#: includes/libs/carbon-fields/vendor/htmlburger/carbon-fields/core/Container/Block_Container.php:243
+msgid "The parent must be 'array', 'string' or 'null'."
+msgstr "The parent must be 'array', 'string' or 'null'."
+
+#: includes/libs/carbon-fields/vendor/htmlburger/carbon-fields/core/Container/Block_Container.php:272
+msgid "The position of inner blocks must be 'above' or 'below'."
+msgstr "The position of inner blocks must be 'above' or 'below'."
+
+#: includes/libs/carbon-fields/vendor/htmlburger/carbon-fields/core/Container/Block_Container.php:290
+msgid "The template must be an 'array' or 'null'."
+msgstr "The template must be an 'array' or 'null'."
+
+#: includes/libs/carbon-fields/vendor/htmlburger/carbon-fields/core/Container/Block_Container.php:308
+msgid "The template lock must be 'all', 'insert', 'false' or 'null'."
+msgstr "The template lock must be 'all', 'insert', 'false' or 'null'."
+
+#: includes/libs/carbon-fields/vendor/htmlburger/carbon-fields/core/Container/Block_Container.php:326
+msgid "The allowed blocks must be an 'array' or 'null'."
+msgstr "The allowed blocks must be an 'array' or 'null'."
+
+#: includes/libs/carbon-fields/vendor/htmlburger/carbon-fields/core/Container/Block_Container.php:393
+msgid "'render_callback' is required for the blocks."
+msgstr "'render_callback' is required for the blocks."
+
+#: includes/libs/carbon-fields/vendor/htmlburger/carbon-fields/core/Container/Block_Container.php:397
+msgid "'render_callback' must be a callable."
+msgstr "'render_callback' must be a callable."
+
+#: includes/libs/carbon-fields/vendor/htmlburger/carbon-fields/core/Container/Container.php:727
+msgid "General"
+msgstr "General"
+
+#: includes/libs/carbon-fields/vendor/htmlburger/carbon-fields/core/Container/Theme_Options_Container.php:207
+msgid "Settings saved."
+msgstr "Settings saved."
+
+#: includes/libs/carbon-fields/vendor/htmlburger/carbon-fields/core/Field/Footer_Scripts_Field.php:20
+msgid ""
+"If you need to add scripts to your footer (like Google Analytics tracking "
+"code), you should enter them in this box."
+msgstr ""
+"If you need to add scripts to your footer (like Google Analytics tracking "
+"code), you should enter them in this box."
+
+#: includes/libs/carbon-fields/vendor/htmlburger/carbon-fields/core/Field/Gravity_Form_Field.php:47
+msgid "No form"
+msgstr "No form"
+
+#: includes/libs/carbon-fields/vendor/htmlburger/carbon-fields/core/Field/Header_Scripts_Field.php:20
+msgid "If you need to add scripts to your header, you should enter them here."
+msgstr "If you need to add scripts to your header, you should enter them here."
+
+#: includes/libs/carbon-fields/vendor/htmlburger/carbon-fields/core/Field/Sidebar_Field.php:74
+msgctxt "sidebar"
+msgid "Add New"
+msgstr "Add New"
+
+#: includes/libs/carbon-fields/vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:69
+msgid "Please enter a name for the sidebar."
+msgstr "Please enter a name for the sidebar."
+
+#: includes/libs/carbon-fields/vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:72
+msgid "Unknown action attempted."
+msgstr "Unknown action attempted."
+
+#: includes/libs/carbon-fields/vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:102
+msgid "Sidebar with the same ID is already registered."
+msgstr "Sidebar with the same ID is already registered."
+
+#: includes/libs/carbon-fields/vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:112
+#: includes/libs/carbon-fields/vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:142
+msgid ""
+"Failed to update option storing your custom sidebars. Please contact support."
+msgstr ""
+"Failed to update option storing your custom sidebars. Please contact support."
+
+#: includes/libs/carbon-fields/vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:137
+msgid "Sidebar not found."
+msgstr "Sidebar not found."
+
+#: includes/libs/carbon-fields/vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:181
+msgid "Add Sidebar"
+msgstr "Add Sidebar"
+
+#: includes/libs/carbon-fields/vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:182
+msgid "Please enter the name of the new sidebar:"
+msgstr "Please enter the name of the new sidebar:"
+
+#: includes/libs/carbon-fields/vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:183
+msgid "Are you sure you wish to remove this sidebar?"
+msgstr "Are you sure you wish to remove this sidebar?"
+
+#: includes/libs/carbon-fields/vendor/htmlburger/carbon-fields/core/REST_API/Router.php:368
+msgid "No option names provided"
+msgstr "No option names provided"
+
+#: includes/libs/carbon-fields/vendor/htmlburger/carbon-fields/core/REST_API/Router.php:379
+msgid "Theme Options updated."
+msgstr "Theme Options updated."
+
+#: includes/libs/carbon-fields/vendor/htmlburger/carbon-fields/core/REST_API/Router.php:401
+msgid "Sorry, you are not allowed to read blocks of this post."
+msgstr "Sorry, you are not allowed to read blocks of this post."
+
+#: includes/libs/carbon-fields/vendor/htmlburger/carbon-fields/core/REST_API/Router.php:411
+msgid "Sorry, you are not allowed to read blocks as this user."
+msgstr "Sorry, you are not allowed to read blocks as this user."
+
+#: includes/libs/carbon-fields/vendor/htmlburger/carbon-fields/core/REST_API/Router.php:434
+msgid "The name of the block."
+msgstr "The name of the block."
+
+#: includes/libs/carbon-fields/vendor/htmlburger/carbon-fields/core/REST_API/Router.php:439
+msgid "The content of the block."
+msgstr "The content of the block."
+
+#: includes/libs/carbon-fields/vendor/htmlburger/carbon-fields/core/REST_API/Router.php:443
+msgid "ID of the post context."
+msgstr "ID of the post context."
+
+#: includes/libs/carbon-fields/vendor/htmlburger/carbon-fields/core/REST_API/Router.php:474
+msgid "Invalid block."
+msgstr "Invalid block."
+
+#: includes/libs/carbon-fields/vendor/htmlburger/carbon-fields/templates/Container/common/options-page.php:43
+msgid "Actions"
+msgstr "Actions"
+
+#: includes/libs/carbon-fields/vendor/htmlburger/carbon-fields/templates/Container/common/options-page.php:52
+msgid "Save Changes"
+msgstr "Save Changes"
+
+#: includes/libs/carbon-fields/vendor/htmlburger/carbon-fields/templates/Container/widget.php:4
+msgid "No options are available for this widget."
+msgstr "No options are available for this widget."
+
+#: includes/libs/geo/import/handler.php:11
+msgid "Import of \"Restricted Country\" terms with fields"
+msgstr "Импорт термов таксономии Запрещенные страны"
+
+#: includes/libs/geo/import/handler.php:12
+msgid ""
+"Import 190 countries into a taxonomy, and adds the country value and flag "
+"picture for each ISO taxonomy."
+msgstr ""
+"Импортирует 190 стран в таксономию, и добавляет к каждой поле ISO значение "
+"страны и картинку флага в SVG."
+
+#: includes/libs/geo/import/handler.php:48
+msgid "Added this country: "
+msgstr "Добавлены следующие страны: "
+
+#: includes/libs/geo/import/handler.php:53
+#: includes/libs/geo/import/handler.php:56
+msgid "Select language!"
+msgstr "Выберите язык!"
+
+#: includes/libs/geo/import/handler.php:61
+msgid ""
+"If you have already filled in any terms in this taxonomy, it is recommended "
+"that you delete them to avoid duplicates."
+msgstr ""
+"Если у Вас уже есть заполненные термы таксономии, рекомендую удалить, чтобы "
+"избежать дублей."
+
+#: includes/libs/geo/import/handler.php:64 single-casino.php:362
+#: template-page-casino-review.php:325
+msgid "Language"
+msgstr "Язык"
+
+#: includes/libs/geo/import/handler.php:67
+msgid "Select Language"
+msgstr "Выберите язык"
+
+#: includes/libs/geo/import/handler.php:68
+msgid "Russian"
+msgstr "Русские страны"
+
+#: includes/libs/geo/import/handler.php:69
+msgid "English country"
+msgstr "Английские страны"
+
+#: includes/shortcodes/shortcode-custom-bonus.php:53 loop/bonus-item.php:45
+msgid "More"
+msgstr "Обзор"
+
+#: includes/shortcodes/shortcode-custom-bonus.php:54 loop/bonus-item.php:46
+#: parts/casino-integrated-bonuses.php:109
+#: parts/casino-integrated-bonuses.php:159
+#: parts/casino-integrated-bonuses.php:208
+#: parts/casino-integrated-bonuses.php:257
+#: parts/casino-integrated-bonuses.php:306 single-bonus.php:67
+#: single-casino.php:209 single-casino.php:222 single-casino.php:236
+#: single-casino.php:249 single-casino.php:262
+#: template-page-casino-review.php:172 template-page-casino-review.php:185
+#: template-page-casino-review.php:199 template-page-casino-review.php:212
+#: template-page-casino-review.php:225
+msgid "Get bonus"
+msgstr "Получить"
+
+#: includes/shortcodes/shortcode-custom-bonus.php:60
+#: includes/shortcodes/shortcode-custom-slots.php:39
+#: includes/shortcodes/shrotcode-custom-table.php:113
+msgid "Parameter LIST is required"
+msgstr "Параметр LIST обязательный"
+
+#: includes/shortcodes/shortcode-custom-terms.php:29
+msgid "Parameter tax - required"
+msgstr "Параметр tax обязательный"
+
+#: includes/shortcodes/shortcode-grid.php:63
+#: includes/shortcodes/shortcode-table.php:270
+#: includes/widgets/widget-top-casino.php:102
+msgid "No casino reviews found"
+msgstr "Нет обзоров казино"
+
+#: includes/shortcodes/shortcode-single-casino.php:25
+msgid "reviews"
+msgstr "отзывов"
+
+#: includes/shortcodes/shortcode-single-casino.php:28 single-casino.php:135
+msgid "in casino rating"
+msgstr "в рейтинге казино"
+
+#: includes/shortcodes/shortcode-single-casino.php:32
+#: includes/shortcodes/shortcode-table.php:264
+#: includes/shortcodes/shrotcode-custom-table.php:107
+msgid "Play now"
+msgstr "Играть"
+
+#: includes/shortcodes/shortcode-single-casino.php:40
+msgid "Enter ID attribute"
+msgstr "Введите атрибут ID"
+
+#: includes/shortcodes/shortcode-table.php:36
+#: includes/shortcodes/shrotcode-custom-table.php:25
+#: includes/widgets_area.php:14
+msgid "Casino rating"
+msgstr "Рейтинг казино"
+
+#: includes/shortcodes/shortcode-table.php:38
+#: includes/shortcodes/shortcode-table.php:197
+#: includes/shortcodes/shrotcode-custom-table.php:27
+msgid "Welcome"
+msgstr "Прив. бонус"
+
+#: includes/shortcodes/shortcode-table.php:42
+#: includes/shortcodes/shortcode-table.php:212
+#: includes/shortcodes/shrotcode-custom-table.php:31
+msgid "Free-spins"
+msgstr "Фриспины"
+
+#: includes/shortcodes/shortcode-table.php:48
+#: includes/shortcodes/shrotcode-custom-table.php:37
+msgid "No-deposit"
+msgstr "Бездеп"
+
+#: includes/shortcodes/shortcode-table.php:51
+#: includes/shortcodes/shrotcode-custom-table.php:39
+msgid "Devices"
+msgstr "Устройства"
+
+#: includes/shortcodes/shortcode-table.php:63
+#: includes/widgets/widget-top-casino.php:46
+msgid "The list of casinos allowed in"
+msgstr "Список казино доступных для игроков из"
+
+#: includes/shortcodes/shortcode-table.php:197
+#: includes/shortcodes/shortcode-table.php:205
+#: includes/shortcodes/shortcode-table.php:212
+#: includes/shortcodes/shortcode-table.php:220
+#: includes/shortcodes/shortcode-table.php:228
+msgid "T&C Apply"
+msgstr "Правила"
+
+#: includes/widgets/widget-deposit-method.php:8
+msgid "DEPOSIT METHOD WIDGET"
+msgstr "МЕТОДЫ ДЕПОЗИТА ВИДЖЕТ"
+
+#: includes/widgets/widget-deposit-method.php:47
+msgid "Deposit methods not found"
+msgstr "Методы депозита не найдены"
+
+#: includes/widgets/widget-deposit-method.php:81
+#: includes/widgets/widget-last-news.php:91
+#: includes/widgets/widget-mailchimp-subscribe.php:48
+#: includes/widgets/widget-slot-soft.php:86
+#: includes/widgets/widget-top-bonuses.php:107
+#: includes/widgets/widget-top-casino.php:141
+msgid "Widget title"
+msgstr "Заголовок"
+
+#: includes/widgets/widget-deposit-method.php:87
+#: includes/widgets/widget-last-news.php:97
+#: includes/widgets/widget-slot-soft.php:92
+#: includes/widgets/widget-top-bonuses.php:101
+#: includes/widgets/widget-top-casino.php:135
+msgid "Count"
+msgstr "Количество"
+
+#: includes/widgets/widget-deposit-method.php:93
+#: includes/widgets/widget-slot-soft.php:98
+msgid "Short description"
+msgstr "Короткое описание"
+
+#: includes/widgets/widget-last-news.php:8
+msgid "LAST NEWS WIDGET"
+msgstr "ПОСЛЕДНИЕ НОВОСТИ ВИДЖЕТ"
+
+#: includes/widgets/widget-last-news.php:25
+msgid "Last news"
+msgstr "Последние новости"
+
+#: includes/widgets/widget-last-news.php:53
+msgid "No news"
+msgstr "Нет новостей"
+
+#: includes/widgets/widget-last-news.php:57
+msgid "Show more"
+msgstr "Полный список"
+
+#: includes/widgets/widget-last-news.php:103
+msgid "Cats ID(,)"
+msgstr "ID категорий для фильтрации"
+
+#: includes/widgets/widget-last-news.php:109
+msgid "Link to full list"
+msgstr "Ссылка на полны список"
+
+#: includes/widgets/widget-mailchimp-subscribe.php:8
+msgid "SUBSCRIBE WIDGET"
+msgstr "ПОДПИСКА ВИДЖЕТ"
+
+#: includes/widgets/widget-mailchimp-subscribe.php:18
+msgid "Enter email"
+msgstr "Электронная почта"
+
+#: includes/widgets/widget-mailchimp-subscribe.php:19
+msgid "Subscribe"
+msgstr "Подписаться"
+
+#: includes/widgets/widget-slot-soft.php:8
+msgid "SLOTS SOFT WIDGET"
+msgstr "СОФТ СЛОТОВ ВИДЖЕТ"
+
+#: includes/widgets/widget-slot-soft.php:24
+msgid "Slots soft"
+msgstr "Софт слотов"
+
+#: includes/widgets/widget-slot-soft.php:52
+msgid "No slots soft found"
+msgstr "Софты не найдены"
+
+#: includes/widgets/widget-top-bonuses.php:8
+msgid "BONUSES WIDGET"
+msgstr "БОНУСЫ ВИДЖЕТ"
+
+#: includes/widgets/widget-top-bonuses.php:70
+msgid "Bonuses not found"
+msgstr "Бонусы не найдены"
+
+#: includes/widgets/widget-top-casino.php:8
+msgid "TOP CASINO WIDGET"
+msgstr "ТОП КАЗИНО ВИДЖЕТ"
+
+#: includes/widgets/widget-top-casino.php:24
+msgid "Top casino"
+msgstr "Топ онлайн казино"
+
+#: includes/widgets/widget-top-casino.php:97
+msgid "Play "
+msgstr "Играть "
+
+#: includes/widgets/widget-top-casino.php:148
+msgid "Casino by GEO location"
+msgstr "Казино по геолокации"
+
+#: includes/widgets_area.php:10
+msgid "Right on homepage"
+msgstr "Справа на главной странице"
+
+#: includes/widgets_area.php:20
+msgid "Right on casino rating page"
+msgstr "Справа на странице рейтинга казино"
+
+#: includes/widgets_area.php:24
+msgid "Casino review left sidebar"
+msgstr "Слева на странице обзора казино"
+
+#: includes/widgets_area.php:30
+msgid "Casino review page left sidebar after bonuses"
+msgstr "Слева на странице внутряка обзора после бонусов"
+
+#: includes/widgets_area.php:34
+msgid "Casino review right sidebar"
+msgstr "Справа на странице обзора казино"
+
+#: includes/widgets_area.php:40
+msgid "Casino review page right sidebar after \"All about ... casino\""
+msgstr ""
+"Слева на странице внутряка обзора после \"Все о регистрации в … казино\""
+
+#: includes/widgets_area.php:45
+msgid "Category page and single post"
+msgstr "Страница категории и внутряк поста"
+
+#: includes/widgets_area.php:51
+msgid "Category page and single post on right"
+msgstr "Справа на странице категории и внутряке поста"
+
+#: includes/widgets_area.php:55
+msgid "Slots sidebar"
+msgstr "Слоты"
+
+#: includes/widgets_area.php:61
+msgid "After filter"
+msgstr "После фильтра"
+
+#: includes/widgets_area.php:65
+msgid "Bonus page"
+msgstr "Бонусы"
+
+#: includes/widgets_area.php:71
+msgid "Right"
+msgstr "Справа"
+
+#: includes/widgets_area.php:75 includes/widgets_area.php:81
+msgid "Footer 1"
+msgstr "Футер 1"
+
+#: includes/widgets_area.php:85 includes/widgets_area.php:91
+msgid "Footer 2"
+msgstr "Футер 2"
+
+#: includes/widgets_area.php:96 includes/widgets_area.php:102
+msgid "Footer 3"
+msgstr "Футер 3"
+
+#: includes/widgets_area.php:106 includes/widgets_area.php:112
+msgid "Footer 4"
+msgstr "Футер 4"
+
+#: includes/widgets_area.php:116 includes/widgets_area.php:122
+msgid "Footer 5"
+msgstr "Футер 5"
+
+#: loop/casino-grid-item.php:19
+msgid "No deposit bonus"
+msgstr "Бездепозитный бонус"
+
+#: loop/casino-grid-item.php:45
+msgid "Players from"
+msgstr "Игроки из"
+
+#: loop/casino-grid-item.php:48
+msgid "Play casino"
+msgstr "Играть"
+
+#: loop/casino-grid-item.php:49
+msgid "Review"
+msgstr "Обзор"
+
+#: parts/casino-integrated-bonuses.php:103 single-casino.php:203
+#: template-page-casino-review.php:166
+msgid "NO DEPOSIT BONUS"
+msgstr "БЕЗДЕПОЗИТНЫЙ БОНУС"
+
+#: parts/casino-integrated-bonuses.php:153 single-casino.php:216
+#: template-page-casino-review.php:179
+msgid "FREESPINS"
+msgstr "ФРИСПИНЫ"
+
+#: parts/casino-integrated-bonuses.php:202 single-casino.php:230
+#: template-page-casino-review.php:193
+msgid "WELCOME BONUS"
+msgstr "ПРИВЕТСТВЕННЫЙ БОНУС"
+
+#: parts/casino-integrated-bonuses.php:251 single-casino.php:243
+#: template-page-casino-review.php:206
+msgid "RELOAD BONUS"
+msgstr "РЕЛОАД  БОНУС"
+
+#: parts/casino-integrated-bonuses.php:300 single-casino.php:256
+#: template-page-casino-review.php:219
+msgid "CASHBACK"
+msgstr "КЕШБЕК"
+
+#: parts/casino-reviews.php:18
+msgid "Casino reviews for "
+msgstr "Отзывы о казино "
+
+#: parts/casino-reviews.php:73
+msgid "Rate the casino and write a review"
+msgstr "Оцените казино и напишите отзыв"
+
+#: parts/casino-reviews.php:91
+msgid "Your name"
+msgstr "Ваше имя"
+
+#: parts/casino-reviews.php:92
+msgid "Your email"
+msgstr "Ваша почта"
+
+#: parts/casino-reviews.php:97
+msgid "By clicking the \"Send review\" button, you consent to the processing"
+msgstr "Нажимая кнопку \"Оправить отзыв\" вы соглашаетесь с"
+
+#: parts/casino-reviews.php:99
+msgid "personal data"
+msgstr "первональными данными"
+
+#: parts/casino-reviews.php:101
+msgid "Send review"
+msgstr "Оправить отзыв"
+
+#: parts/header/header-v1.php:13 parts/header/header-v1.php:53
+#: parts/header/header-v1.php:91
+msgid "Create menu to show it here"
+msgstr "Создайте меню чтобы вывести его тут"
+
+#: parts/header/header-v1.php:39 parts/header/header-v2.php:36
+msgid "Site search..."
+msgstr "Поиск по сайту..."
+
+#: search.php:10
+msgid "Search result for:"
+msgstr "Результаты поиска для:"
+
+#: search.php:32
+msgid "Articles"
+msgstr "Статьи"
+
+#: search.php:77
+msgid "Unfortunately, your search returned no results! Try another keyword."
+msgstr "К сожалению ничего не найдено! Попробуйте другое ключевое слово."
+
+#: single-bonus.php:50
+msgid "Casino bonus"
+msgstr "Казино"
+
+#: single-bonus.php:61
+msgid "Bonus code"
+msgstr "Бонус код"
+
+#: single-casino.php:142 template-page-casino-review.php:111
+msgid "Play"
+msgstr "Играть в"
+
+#: single-casino.php:167 template-page-casino-review.php:133
+msgid "Main info"
+msgstr "Обзор казино"
+
+#: single-casino.php:168 template-page-casino-review.php:134
+msgid "Casino reviews"
+msgstr "Отзывы казино"
+
+#: single-casino.php:179 template-page-casino-review.php:145
+msgid "Forbidden to players from"
+msgstr "Не принимают игроков из"
+
+#: single-casino.php:186 template-page-casino-review.php:152
+msgid "Accept players from"
+msgstr "Принимают игроков из"
+
+#: single-casino.php:286 template-page-casino-review.php:249
+msgid "Basic information"
+msgstr "Общая информация"
+
+#: single-casino.php:299 template-page-casino-review.php:262
+msgid "Founding date"
+msgstr "Год основания"
+
+#: single-casino.php:303 template-page-casino-review.php:266
+msgid "Restricted countries"
+msgstr "Запрещенные страны"
+
+#: single-casino.php:304 template-page-casino-review.php:267
+msgid "Licenses"
+msgstr "Лицензии"
+
+#: single-casino.php:305 template-page-casino-review.php:268
+msgid "Softs"
+msgstr "Программное обеспечение"
+
+#: single-casino.php:324 template-page-casino-review.php:287
+msgid "Payment info"
+msgstr "Платежная информация"
+
+#: single-casino.php:331 template-page-casino-review.php:294
+msgid "Minimum deposit amount"
+msgstr "Минимальная сумма депозита"
+
+#: single-casino.php:337 template-page-casino-review.php:300
+msgid "Minimum withdrawal amount"
+msgstr "Минимальная сумма вывода"
+
+#: single-casino.php:449 template-page-casino-review.php:409
+msgid "Knowledge base"
+msgstr "База знаний"
+
+#: single-casino.php:458 template-page-casino-review.php:418
+msgid "All about register"
+msgstr "Все о регистрации"
+
+#: single-casino.php:458 template-page-casino-review.php:418
+msgid "in"
+msgstr "в"
+
+#: single-slots.php:42
+msgid "Play for real"
+msgstr "Играть на деньги"
+
+#: single-slots.php:43
+msgid "Play for free"
+msgstr "Играть бесплатно"
+
+#: single-slots.php:72
+msgid "Similar slots"
+msgstr "Возможно Вас заинтересует"
+
+#: single-slots.php:91
+msgid "Slot option"
+msgstr "Параметры слота"
+
+#: single-slots.php:93
+msgid "Software:"
+msgstr "Софт:"
+
+#: single-slots.php:97
+msgid "Bonus game:"
+msgstr "Бонусная игра:"
+
+#: single-slots.php:111
+msgid "Scatter symbol:"
+msgstr "Scatter символ:"
+
+#: taxonomy-software.php:42
+msgid "No slots found"
+msgstr "Слоты не найдены"
+
+#: template-rating.php:13
+msgid "Total"
+msgstr "Всего"
+
+#. Theme Name of the plugin/theme
+msgid "jGambling"
+msgstr "jGambling"
+
+#. Theme URI of the plugin/theme
+msgid "https://jgambling.online/"
+msgstr "https://jgambling.online/"
+
+#. Description of the plugin/theme
+msgid "Gambling theme"
+msgstr "Gambling theme"
+
+#. Author of the plugin/theme
+msgid "TheJema"
+msgstr "TheJema"
+
+#. Author URI of the plugin/theme
+msgid "https://thejema.com/shop"
+msgstr "https://thejema.com/shop"
+
+#. Template Name of the plugin/theme
+msgid "Full Width"
+msgstr "Полная ширина"
+
+#. Template Name of the plugin/theme
+msgid "Single casino review*/"
+msgstr "Одиночное казино*/"
+
+#. Template Name of the plugin/theme
+msgid "Rating casino template"
+msgstr "Рейтинг казино"
+
+#~ msgid "Шаблон главной страницы"
+#~ msgstr "Homepage template"
+
+#~ msgid "Шаблон рейтинга казино"
+#~ msgstr "Rating casino template"
+
+#~ msgid "Play Now"
+#~ msgstr "Играть"
+
+#~ msgid "https://demo.thejema.ru/"
+#~ msgstr "https://demo.thejema.ru/"
+
+#~ msgid "Гемблинг шаблон"
+#~ msgstr "Gambling Theme"
+
+#~ msgid "Welcomde bonus"
+#~ msgstr "Приветственный бонус"
+
+#~ msgid "Casino player reviews"
+#~ msgstr "Отзывы о казино!!111"
+
+#~ msgid " "
+#~ msgstr " "

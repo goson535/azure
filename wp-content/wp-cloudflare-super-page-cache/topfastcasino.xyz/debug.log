@@ -1,0 +1,622 @@
+[2020-10-27 15:40:39] [cloudflare::cloudflare_get_zone_ids] Request for page 1 - URL: https://api.cloudflare.com/client/v4/zones?page=1&per_page=50
+[2020-10-27 15:40:40] [cloudflare::cloudflare_get_zone_ids] Response for page 1: {"result":[{"id":"dabd8ed27c4d1af19780102a3abf59cb","name":"caziinoru.com","status":"active","paused":false,"type":"full","development_mode":0,"name_servers":["bart.ns.cloudflare.com","dana.ns.cloudflare.com"],"original_name_servers":["ns1.caziinoru.com","ns2.caziinoru.com"],"original_registrar":"registrar of domain names reg. (id: 1606)","original_dnshost":null,"modified_on":"2020-10-25T15:10:37.008322Z","created_on":"2020-10-13T09:53:03.934114Z","activated_on":"2020-10-13T10:12:13.841129Z","vanity_name_servers":[],"vanity_name_servers_ips":null,"meta":{"step":2,"wildcard_proxiable":false,"custom_certificate_quota":1,"page_rule_quota":75,"phishing_detected":false,"multiple_railguns_allowed":false},"owner":{"id":"c903f2e6a532a5e02b5b0f23c62d5b38","type":"user","email":"sig85@bk.ru"},"account":{"id":"0bc279ccaa00f8576251cce1f9da9065","name":"sig85@bk.ru"},"permissions":["#access:edit","#access:read","#analytics:read","#app:edit","#auditlogs:read","#billing:edit","#billing:read","#cache_purge:edit","#dns_records:edit","#dns_records:read","#lb:edit","#lb:read","#legal:edit","#legal:read","#logs:edit","#logs:read","#member:edit","#member:read","#organization:edit","#organization:read","#ssl:edit","#ssl:read","#stream:edit","#stream:read","#subscription:edit","#subscription:read","#teams:edit","#teams:read","#teams:report","#waf:edit","#waf:read","#webhooks:edit","#webhooks:read","#worker:edit","#worker:read","#zone:edit","#zone:read","#zone_settings:edit","#zone_settings:read"],"plan":{"id":"1ac039f6c29b691475c3d74fe588d1ae","name":"Business Website","price":0,"currency":"USD","frequency":"","is_subscribed":true,"can_subscribe":false,"legacy_id":"business","legacy_discount":false,"externally_managed":false}},{"id":"427c04ca25e274035933a7546e8c8b55","name":"test1111434.xyz","status":"active","paused":false,"type":"full","development_mode":0,"name_servers":["bart.ns.cloudflare.com","dana.ns.cloudflare.com"],"original_name_servers":["ns1.zomro.net","ns2.zomro.ru","ns3.zomro.com","ns4.zomro.su"],"original_registrar":null,"original_dnshost":null,"modified_on":"2020-10-16T19:57:08.905286Z","created_on":"2020-10-16T19:39:01.081533Z","activated_on":"2020-10-16T19:57:08.905286Z","meta":{"step":2,"wildcard_proxiable":false,"custom_certificate_quota":0,"page_rule_quota":30,"phishing_detected":false,"multiple_railguns_allowed":false},"owner":{"id":"c903f2e6a532a5e02b5b0f23c62d5b38","type":"user","email":"sig85@bk.ru"},"account":{"id":"0bc279ccaa00f8576251cce1f9da9065","name":"sig85@bk.ru"},"permissions":["#access:edit","#access:read","#analytics:read","#app:edit","#auditlogs:read","#billing:edit","#billing:read","#cache_purge:edit","#dns_records:edit","#dns_records:read","#lb:edit","#lb:read","#legal:edit","#legal:read","#logs:edit","#logs:read","#member:edit","#member:read","#organization:edit","#organization:read","#ssl:edit","#ssl:read","#stream:edit","#stream:read","#subscription:edit","#subscription:read","#teams:edit","#teams:read","#teams:report","#waf:edit","#waf:read","#webhooks:edit","#webhooks:read","#worker:edit","#worker:read","#zone:edit","#zone:read","#zone_settings:edit","#zone_settings:read"],"plan":{"id":"a577b510288e82b26486fd1df47000ec","name":"Pro Website","price":0,"currency":"USD","frequency":"","is_subscribed":true,"can_subscribe":false,"legacy_id":"pro","legacy_discount":false,"externally_managed":false}},{"id":"81114c972f3c9a9cb976561d1d94eb66","name":"topfastcasino.xyz","status":"active","paused":false,"type":"full","development_mode":0,"name_servers":["bart.ns.cloudflare.com","dana.ns.cloudflare.com"],"original_name_servers":["ns1.zomro.net","ns2.zomro.ru","ns3.zomro.com","ns4.zomro.su"],"original_registrar":null,"original_dnshost":null,"modified_on":"2020-10-27T15:01:02.108100Z","created_on":"2020-10-27T14:53:36.708592Z","activated_on":"2020-10-27T15:01:02.108100Z","meta":{"step":2,"wildcard_proxiable":false,"custom_certificate_quota":0,"page_rule_quota":30,"phishing_detected":false,"multiple_railguns_allowed":false},"owner":{"id":"c903f2e6a532a5e02b5b0f23c62d5b38","type":"user","email":"sig85@bk.ru"},"account":{"id":"0bc279ccaa00f8576251cce1f9da9065","name":"sig85@bk.ru"},"permissions":["#access:edit","#access:read","#analytics:read","#app:edit","#auditlogs:read","#billing:edit","#billing:read","#cache_purge:edit","#dns_records:edit","#dns_records:read","#lb:edit","#lb:read","#legal:edit","#legal:read","#logs:edit","#logs:read","#member:edit","#member:read","#organization:edit","#organization:read","#ssl:edit","#ssl:read","#stream:edit","#stream:read","#subscription:edit","#subscription:read","#teams:edit","#teams:read","#teams:report","#waf:edit","#waf:read","#webhooks:edit","#webhooks:read","#worker:edit","#worker:read","#zone:edit","#zone:read","#zone_settings:edit","#zone_settings:read"],"plan":{"id":"a577b510288e82b26486fd1df47000ec","name":"Pro Website","price":0,"currency":"USD","frequency":"","is_subscribed":true,"can_subscribe":false,"legacy_id":"pro","legacy_discount":false,"externally_managed":false}}],"result_info":{"page":1,"per_page":50,"total_pages":1,"count":3,"total_count":3},"success":true,"errors":[],"messages":[]}
+[2020-10-27 15:40:56] [cloudflare::cloudflare_get_browser_cache_ttl] Request https://api.cloudflare.com/client/v4/zones/81114c972f3c9a9cb976561d1d94eb66/settings/browser_cache_ttl
+[2020-10-27 15:40:57] [cloudflare::cloudflare_get_browser_cache_ttl] Response {"result":{"id":"browser_cache_ttl","value":14400,"modified_on":null,"editable":true},"success":true,"errors":[],"messages":[]}
+[2020-10-27 15:40:57] [cloudflare::cloudflare_set_browser_cache_ttl] Request URL: https://api.cloudflare.com/client/v4/zones/81114c972f3c9a9cb976561d1d94eb66/settings/browser_cache_ttl
+[2020-10-27 15:40:57] [cloudflare::cloudflare_set_browser_cache_ttl] Request body: {"value":0}
+[2020-10-27 15:40:58] [cloudflare::cloudflare_set_browser_cache_ttl] Response: {"result":{"id":"browser_cache_ttl","value":0,"modified_on":"2020-10-27T15:40:58.387322Z","editable":true},"success":true,"errors":[],"messages":[]}
+[2020-10-27 15:40:58] [cloudflare::add_cache_everything_page_rule] Request URL: https://api.cloudflare.com/client/v4/zones/81114c972f3c9a9cb976561d1d94eb66/pagerules
+[2020-10-27 15:40:58] [cloudflare::add_cache_everything_page_rule] Request Body: {"targets":[{"target":"url","constraint":{"operator":"matches","value":"https:\/\/topfastcasino.xyz\/*"}}],"actions":[{"id":"cache_level","value":"cache_everything"}],"priority":1,"status":"active"}
+[2020-10-27 15:40:59] [cloudflare::add_cache_everything_page_rule] Response: {"result":{"id":"7525d4e1df352e6963e0c34c0b870aec","targets":[{"target":"url","constraint":{"operator":"matches","value":"https:\/\/topfastcasino.xyz\/*"}}],"actions":[{"id":"cache_level","value":"cache_everything"}],"priority":1,"status":"active","created_on":"2020-10-27T15:40:59.000000Z","modified_on":"2020-10-27T15:40:59.000000Z"},"success":true,"errors":[],"messages":[]}
+[2020-10-27 15:40:59] [cloudflare::purge_cache] Request URL: https://api.cloudflare.com/client/v4/zones/81114c972f3c9a9cb976561d1d94eb66/purge_cache
+[2020-10-27 15:40:59] [cloudflare::purge_cache] Request Body: {"purge_everything":true}
+[2020-10-27 15:41:00] [cloudflare::purge_cache] Response: {
+  "result": {
+    "id": "81114c972f3c9a9cb976561d1d94eb66"
+  },
+  "success": true,
+  "errors": [],
+  "messages": []
+}
+
+[2020-10-29 16:01:36] [cache_controller::purge_cache_queue_write] queue file not exist
+[2020-10-29 16:01:36] [cache_controller::purge_cache_on_post_edit] Purge Cloudflare cache for only post id 1408 and related contents
+[2020-10-29 16:01:36] [cache_controller::purge_cache_on_post_edit] Purge Cloudflare cache for only post id 1408 and related contents
+[2020-10-29 16:01:36] [cache_controller::purge_cache_on_post_edit] Purge Cloudflare cache for only post id 1408 and related contents
+[2020-10-29 16:01:36] [cache_controller::purge_cache_on_post_edit] Purge Cloudflare cache for only post id 1408 and related contents
+[2020-10-29 16:18:32] [cache_controller::purge_cache_on_post_edit] Purge Cloudflare cache for only post id 187 and related contents
+[2020-10-29 16:18:32] [cache_controller::purge_cache_on_post_edit] Purge Cloudflare cache for only post id 187 and related contents
+[2020-10-29 16:18:33] [cache_controller::purge_cache_on_post_edit] Purge Cloudflare cache for only post id 187 and related contents
+[2020-10-29 16:18:36] [cache_controller::purge_cache_on_post_edit] Purge Cloudflare cache for only post id 183 and related contents
+[2020-10-29 16:18:36] [cache_controller::purge_cache_on_post_edit] Purge Cloudflare cache for only post id 183 and related contents
+[2020-10-29 16:18:37] [cache_controller::purge_cache_on_post_edit] Purge Cloudflare cache for only post id 183 and related contents
+[2020-10-30 11:15:33] [cache_controller::purge_cache_on_post_edit] Purge Cloudflare cache for only post id 1408 and related contents
+[2020-10-30 11:15:33] [cache_controller::purge_cache_on_post_edit] Purge Cloudflare cache for only post id 1408 and related contents
+[2020-10-30 11:15:33] [cache_controller::purge_cache_on_post_edit] Purge Cloudflare cache for only post id 1408 and related contents
+[2020-10-30 11:15:33] [cache_controller::purge_cache_on_post_edit] Purge Cloudflare cache for only post id 1408 and related contents
+[2020-10-30 11:16:01] [cloudflare::purge_cache] Request URL: https://api.cloudflare.com/client/v4/zones/81114c972f3c9a9cb976561d1d94eb66/purge_cache
+[2020-10-30 11:16:01] [cloudflare::purge_cache] Request Body: {"purge_everything":true}
+[2020-10-30 11:16:02] [cloudflare::purge_cache] Response: {
+  "result": {
+    "id": "81114c972f3c9a9cb976561d1d94eb66"
+  },
+  "success": true,
+  "errors": [],
+  "messages": []
+}
+
+[2020-10-30 11:16:02] [cache_controller::purge_all] Purge whole Cloudflare cache
+[2020-10-30 11:16:02] [cache_controller::ajax_purge_whole_cache] Purge whole Cloudflare cache
+[2020-10-30 11:17:54] [cache_controller::purge_cache_on_post_edit] Purge Cloudflare cache for only post id 1408 and related contents
+[2020-10-30 11:17:54] [cache_controller::purge_cache_on_post_edit] Purge Cloudflare cache for only post id 1408 and related contents
+[2020-10-30 11:17:54] [cache_controller::purge_cache_on_post_edit] Purge Cloudflare cache for only post id 1408 and related contents
+[2020-10-30 11:17:54] [cache_controller::purge_cache_on_post_edit] Purge Cloudflare cache for only post id 1408 and related contents
+[2020-10-30 15:37:36] [cloudflare::purge_cache] Request URL: https://api.cloudflare.com/client/v4/zones/81114c972f3c9a9cb976561d1d94eb66/purge_cache
+[2020-10-30 15:37:36] [cloudflare::purge_cache] Request Body: {"purge_everything":true}
+[2020-10-30 15:37:38] [cloudflare::purge_cache] Response: {
+  "result": {
+    "id": "81114c972f3c9a9cb976561d1d94eb66"
+  },
+  "success": true,
+  "errors": [],
+  "messages": []
+}
+
+[2020-10-30 15:37:38] [cache_controller::purge_all] Purge whole Cloudflare cache
+[2020-10-30 15:37:38] [cache_controller::ajax_purge_whole_cache] Purge whole Cloudflare cache
+[2020-10-30 15:38:45] [cloudflare::purge_cache] Request URL: https://api.cloudflare.com/client/v4/zones/81114c972f3c9a9cb976561d1d94eb66/purge_cache
+[2020-10-30 15:38:45] [cloudflare::purge_cache] Request Body: {"purge_everything":true}
+[2020-10-30 15:38:46] [cloudflare::purge_cache] Response: {
+  "result": {
+    "id": "81114c972f3c9a9cb976561d1d94eb66"
+  },
+  "success": true,
+  "errors": [],
+  "messages": []
+}
+
+[2020-10-30 15:38:46] [cache_controller::purge_all] Purge whole Cloudflare cache
+[2020-10-30 15:38:46] [cache_controller::ajax_purge_whole_cache] Purge whole Cloudflare cache
+[2020-10-30 15:48:00] [cloudflare::purge_cache] Request URL: https://api.cloudflare.com/client/v4/zones/81114c972f3c9a9cb976561d1d94eb66/purge_cache
+[2020-10-30 15:48:00] [cloudflare::purge_cache] Request Body: {"purge_everything":true}
+[2020-10-30 15:48:01] [cloudflare::purge_cache] Response: {
+  "result": {
+    "id": "81114c972f3c9a9cb976561d1d94eb66"
+  },
+  "success": true,
+  "errors": [],
+  "messages": []
+}
+
+[2020-10-30 15:48:01] [cache_controller::purge_all] Purge whole Cloudflare cache
+[2020-10-30 15:48:01] [cache_controller::ajax_purge_whole_cache] Purge whole Cloudflare cache
+[2020-10-30 16:07:28] [cache_controller::purge_cache_queue_job] I'm the purge cache cronjob
+[2020-10-30 16:07:28] [cloudflare::purge_cache_urls] Request URL: https://api.cloudflare.com/client/v4/zones/81114c972f3c9a9cb976561d1d94eb66/purge_cache
+[2020-10-30 16:07:28] [cloudflare::purge_cache_urls] Request Body: {"files":["https:\/\/topfastcasino.xyz\/author\/gambler\/","https:\/\/topfastcasino.xyz\/author\/gambler\/feed\/","https:\/\/topfastcasino.xyz\/top-10-kazino\/","https:\/\/topfastcasino.xyz\/","https:\/\/topfastcasino.xyz\/deposit\/neteller\/","https:\/\/topfastcasino.xyz\/deposit\/neteller\/page\/2\/","https:\/\/topfastcasino.xyz\/deposit\/qiwi\/","https:\/\/topfastcasino.xyz\/deposit\/qiwi\/page\/2\/","https:\/\/topfastcasino.xyz\/deposit\/skrill\/","https:\/\/topfastcasino.xyz\/deposit\/skrill\/page\/2\/","https:\/\/topfastcasino.xyz\/deposit\/visa-mastercard\/","https:\/\/topfastcasino.xyz\/deposit\/visa-mastercard\/page\/2\/","https:\/\/topfastcasino.xyz\/deposit\/webmoney\/","https:\/\/topfastcasino.xyz\/deposit\/webmoney\/page\/2\/","https:\/\/topfastcasino.xyz\/deposit\/yandeks-dengi\/","https:\/\/topfastcasino.xyz\/deposit\/yandeks-dengi\/page\/2\/","https:\/\/topfastcasino.xyz\/currency\/dollar-ssha\/","https:\/\/topfastcasino.xyz\/currency\/dollar-ssha\/page\/2\/","https:\/\/topfastcasino.xyz\/currency\/evro\/","https:\/\/topfastcasino.xyz\/currency\/%d1%80%d0%be%d1%81%d1%81%d0%b8%d0%b9%d1%81%d0%ba%d0%b8%d0%b9-%d1%80%d1%83%d0%b1%d0%bb%d1%8c\/","https:\/\/topfastcasino.xyz\/currency\/%d1%88%d0%b2%d0%b5%d0%b4%d1%81%d0%ba%d0%b0%d1%8f-%d0%ba%d1%80%d0%be%d0%bd%d0%b0\/","https:\/\/topfastcasino.xyz\/cashout\/neteller\/","https:\/\/topfastcasino.xyz\/cashout\/neteller\/page\/2\/","https:\/\/topfastcasino.xyz\/cashout\/qiwi\/","https:\/\/topfastcasino.xyz\/cashout\/qiwi\/page\/2\/","https:\/\/topfastcasino.xyz\/cashout\/skrill\/","https:\/\/topfastcasino.xyz\/cashout\/skrill\/page\/2\/","https:\/\/topfastcasino.xyz\/cashout\/sofort\/","https:\/\/topfastcasino.xyz\/cashout\/visa\/","https:\/\/topfastcasino.xyz\/cashout\/visa\/page\/2\/"]}
+[2020-10-30 16:07:29] [cloudflare::purge_cache_urls] Response: {
+  "result": {
+    "id": "81114c972f3c9a9cb976561d1d94eb66"
+  },
+  "success": true,
+  "errors": [],
+  "messages": []
+}
+
+[2020-10-30 16:07:29] [cloudflare::purge_cache_urls] Request URL: https://api.cloudflare.com/client/v4/zones/81114c972f3c9a9cb976561d1d94eb66/purge_cache
+[2020-10-30 16:07:29] [cloudflare::purge_cache_urls] Request Body: {"files":["https:\/\/topfastcasino.xyz\/cashout\/webmoney\/","https:\/\/topfastcasino.xyz\/cashout\/webmoney\/page\/2\/","https:\/\/topfastcasino.xyz\/cashout\/bankovskij-perevod\/","https:\/\/topfastcasino.xyz\/cashout\/bankovskij-perevod\/page\/2\/","https:\/\/topfastcasino.xyz\/cashout\/yandeks-dengi\/","https:\/\/topfastcasino.xyz\/cashout\/yandeks-dengi\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/belatra\/","https:\/\/topfastcasino.xyz\/soft\/betsoft\/","https:\/\/topfastcasino.xyz\/soft\/betsoft\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/egt\/","https:\/\/topfastcasino.xyz\/soft\/elk\/","https:\/\/topfastcasino.xyz\/soft\/elk\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/evolution-gaming\/","https:\/\/topfastcasino.xyz\/soft\/gameart\/","https:\/\/topfastcasino.xyz\/soft\/gameart\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/microgaming\/","https:\/\/topfastcasino.xyz\/soft\/microgaming\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/netent\/","https:\/\/topfastcasino.xyz\/soft\/netent\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/nyx\/","https:\/\/topfastcasino.xyz\/soft\/nyx\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/playn-go\/","https:\/\/topfastcasino.xyz\/soft\/pragmatic-play\/","https:\/\/topfastcasino.xyz\/soft\/pragmatic-play\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/spinomenal\/","https:\/\/topfastcasino.xyz\/soft\/thunderkick\/","https:\/\/topfastcasino.xyz\/soft\/thunderkick\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/yggdrasil\/","https:\/\/topfastcasino.xyz\/soft\/yggdrasil\/page\/2\/","https:\/\/topfastcasino.xyz\/restricted\/belgiya\/"]}
+[2020-10-30 16:07:30] [cloudflare::purge_cache_urls] Response: {
+  "result": {
+    "id": "81114c972f3c9a9cb976561d1d94eb66"
+  },
+  "success": true,
+  "errors": [],
+  "messages": []
+}
+
+[2020-10-30 16:07:30] [cloudflare::purge_cache_urls] Request URL: https://api.cloudflare.com/client/v4/zones/81114c972f3c9a9cb976561d1d94eb66/purge_cache
+[2020-10-30 16:07:30] [cloudflare::purge_cache_urls] Request Body: {"files":["https:\/\/topfastcasino.xyz\/restricted\/belgiya\/page\/2\/","https:\/\/topfastcasino.xyz\/restricted\/daniya\/","https:\/\/topfastcasino.xyz\/restricted\/daniya\/page\/2\/","https:\/\/topfastcasino.xyz\/restricted\/ssha\/","https:\/\/topfastcasino.xyz\/restricted\/ssha\/page\/2\/","https:\/\/topfastcasino.xyz\/restricted\/francziya\/","https:\/\/topfastcasino.xyz\/restricted\/francziya\/page\/2\/","https:\/\/topfastcasino.xyz\/license\/malta-gaming-authority\/","https:\/\/topfastcasino.xyz\/casino\/","https:\/\/topfastcasino.xyz\/casino\/feed\/","https:\/\/topfastcasino.xyz\/casino\/slotv\/","https:\/\/topfastcasino.xyz\/soft\/amatic\/","https:\/\/topfastcasino.xyz\/soft\/amatic\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/endorphina\/","https:\/\/topfastcasino.xyz\/soft\/endorphina\/page\/2\/","https:\/\/topfastcasino.xyz\/restricted\/%d0%b2%d0%b5%d0%bb%d0%b8%d0%ba%d0%be%d0%b1%d1%80%d0%b8%d1%82%d0%b0%d0%bd%d0%b8%d1%8f\/","https:\/\/topfastcasino.xyz\/license\/kyurasao\/","https:\/\/topfastcasino.xyz\/casino\/columbus\/"]}
+[2020-10-30 16:07:30] [cloudflare::purge_cache_urls] Response: {
+  "result": {
+    "id": "81114c972f3c9a9cb976561d1d94eb66"
+  },
+  "success": true,
+  "errors": [],
+  "messages": []
+}
+
+[2020-10-30 16:07:31] [cloudflare::get_cloudflare_cookie] No cookies found in response HTTP packet
+[2020-10-30 16:07:31] [cache_controller::start_cache_preloader_for_specific_urls] Adding these URLs to preloader queue: Array
+(
+    [0] => https://topfastcasino.xyz/author/gambler/
+    [1] => https://topfastcasino.xyz/author/gambler/feed/
+    [2] => https://topfastcasino.xyz/top-10-kazino/
+    [3] => https://topfastcasino.xyz/
+    [4] => https://topfastcasino.xyz/deposit/neteller/
+    [5] => https://topfastcasino.xyz/deposit/neteller/page/2/
+    [6] => https://topfastcasino.xyz/deposit/qiwi/
+    [7] => https://topfastcasino.xyz/deposit/qiwi/page/2/
+    [8] => https://topfastcasino.xyz/deposit/skrill/
+    [9] => https://topfastcasino.xyz/deposit/skrill/page/2/
+    [10] => https://topfastcasino.xyz/deposit/visa-mastercard/
+    [11] => https://topfastcasino.xyz/deposit/visa-mastercard/page/2/
+    [12] => https://topfastcasino.xyz/deposit/webmoney/
+    [13] => https://topfastcasino.xyz/deposit/webmoney/page/2/
+    [14] => https://topfastcasino.xyz/deposit/yandeks-dengi/
+    [15] => https://topfastcasino.xyz/deposit/yandeks-dengi/page/2/
+    [16] => https://topfastcasino.xyz/currency/dollar-ssha/
+    [17] => https://topfastcasino.xyz/currency/dollar-ssha/page/2/
+    [18] => https://topfastcasino.xyz/currency/evro/
+    [19] => https://topfastcasino.xyz/currency/%d1%80%d0%be%d1%81%d1%81%d0%b8%d0%b9%d1%81%d0%ba%d0%b8%d0%b9-%d1%80%d1%83%d0%b1%d0%bb%d1%8c/
+    [20] => https://topfastcasino.xyz/currency/%d1%88%d0%b2%d0%b5%d0%b4%d1%81%d0%ba%d0%b0%d1%8f-%d0%ba%d1%80%d0%be%d0%bd%d0%b0/
+    [21] => https://topfastcasino.xyz/cashout/neteller/
+    [22] => https://topfastcasino.xyz/cashout/neteller/page/2/
+    [23] => https://topfastcasino.xyz/cashout/qiwi/
+    [24] => https://topfastcasino.xyz/cashout/qiwi/page/2/
+    [25] => https://topfastcasino.xyz/cashout/skrill/
+    [26] => https://topfastcasino.xyz/cashout/skrill/page/2/
+    [27] => https://topfastcasino.xyz/cashout/sofort/
+    [28] => https://topfastcasino.xyz/cashout/visa/
+    [29] => https://topfastcasino.xyz/cashout/visa/page/2/
+    [30] => https://topfastcasino.xyz/cashout/webmoney/
+    [31] => https://topfastcasino.xyz/cashout/webmoney/page/2/
+    [32] => https://topfastcasino.xyz/cashout/bankovskij-perevod/
+    [33] => https://topfastcasino.xyz/cashout/bankovskij-perevod/page/2/
+    [34] => https://topfastcasino.xyz/cashout/yandeks-dengi/
+    [35] => https://topfastcasino.xyz/cashout/yandeks-dengi/page/2/
+    [36] => https://topfastcasino.xyz/soft/belatra/
+    [37] => https://topfastcasino.xyz/soft/betsoft/
+    [38] => https://topfastcasino.xyz/soft/betsoft/page/2/
+    [39] => https://topfastcasino.xyz/soft/egt/
+    [40] => https://topfastcasino.xyz/soft/elk/
+    [41] => https://topfastcasino.xyz/soft/elk/page/2/
+    [42] => https://topfastcasino.xyz/soft/evolution-gaming/
+    [43] => https://topfastcasino.xyz/soft/gameart/
+    [44] => https://topfastcasino.xyz/soft/gameart/page/2/
+    [45] => https://topfastcasino.xyz/soft/microgaming/
+    [46] => https://topfastcasino.xyz/soft/microgaming/page/2/
+    [47] => https://topfastcasino.xyz/soft/netent/
+    [48] => https://topfastcasino.xyz/soft/netent/page/2/
+    [49] => https://topfastcasino.xyz/soft/nyx/
+    [50] => https://topfastcasino.xyz/soft/nyx/page/2/
+    [51] => https://topfastcasino.xyz/soft/playn-go/
+    [52] => https://topfastcasino.xyz/soft/pragmatic-play/
+    [53] => https://topfastcasino.xyz/soft/pragmatic-play/page/2/
+    [54] => https://topfastcasino.xyz/soft/spinomenal/
+    [55] => https://topfastcasino.xyz/soft/thunderkick/
+    [56] => https://topfastcasino.xyz/soft/thunderkick/page/2/
+    [57] => https://topfastcasino.xyz/soft/yggdrasil/
+    [58] => https://topfastcasino.xyz/soft/yggdrasil/page/2/
+    [59] => https://topfastcasino.xyz/restricted/belgiya/
+    [60] => https://topfastcasino.xyz/restricted/belgiya/page/2/
+    [61] => https://topfastcasino.xyz/restricted/daniya/
+    [62] => https://topfastcasino.xyz/restricted/daniya/page/2/
+    [63] => https://topfastcasino.xyz/restricted/ssha/
+    [64] => https://topfastcasino.xyz/restricted/ssha/page/2/
+    [65] => https://topfastcasino.xyz/restricted/francziya/
+    [66] => https://topfastcasino.xyz/restricted/francziya/page/2/
+    [67] => https://topfastcasino.xyz/license/malta-gaming-authority/
+    [68] => https://topfastcasino.xyz/casino/
+    [69] => https://topfastcasino.xyz/casino/feed/
+    [70] => https://topfastcasino.xyz/casino/slotv/
+    [71] => https://topfastcasino.xyz/soft/amatic/
+    [72] => https://topfastcasino.xyz/soft/amatic/page/2/
+    [73] => https://topfastcasino.xyz/soft/endorphina/
+    [74] => https://topfastcasino.xyz/soft/endorphina/page/2/
+    [75] => https://topfastcasino.xyz/restricted/%d0%b2%d0%b5%d0%bb%d0%b8%d0%ba%d0%be%d0%b1%d1%80%d0%b8%d1%82%d0%b0%d0%bd%d0%b8%d1%8f/
+    [76] => https://topfastcasino.xyz/license/kyurasao/
+    [77] => https://topfastcasino.xyz/casino/columbus/
+)
+
+[2020-10-30 16:07:31] [cache_controller::purge_urls] Purge whole Cloudflare cache
+[2020-10-30 16:07:31] [cache_controller::purge_cache_queue_job] Cache purged
+[2020-10-30 16:10:00] [preloader::task] Preloading URL https://topfastcasino.xyz/author/gambler/
+[2020-10-30 16:10:04] [preloader::task] Preloading URL https://topfastcasino.xyz/author/gambler/feed/
+[2020-10-30 16:10:06] [preloader::task] Preloading URL https://topfastcasino.xyz/top-10-kazino/
+[2020-10-30 16:10:09] [preloader::task] Preloading URL https://topfastcasino.xyz/
+[2020-10-30 16:10:11] [preloader::task] Preloading URL https://topfastcasino.xyz/deposit/neteller/
+[2020-10-30 16:10:13] [preloader::task] Preloading URL https://topfastcasino.xyz/deposit/neteller/page/2/
+[2020-10-30 16:10:15] [preloader::task] Preloading URL https://topfastcasino.xyz/deposit/qiwi/
+[2020-10-30 16:10:18] [preloader::task] Preloading URL https://topfastcasino.xyz/deposit/qiwi/page/2/
+[2020-10-30 16:19:32] [preloader::task] Preloading URL https://topfastcasino.xyz/deposit/skrill/
+[2020-10-30 16:19:34] [preloader::task] Preloading URL https://topfastcasino.xyz/deposit/skrill/page/2/
+[2020-10-30 16:19:37] [preloader::task] Preloading URL https://topfastcasino.xyz/deposit/visa-mastercard/
+[2020-10-30 16:19:39] [preloader::task] Preloading URL https://topfastcasino.xyz/deposit/visa-mastercard/page/2/
+[2020-10-30 16:19:41] [preloader::task] Preloading URL https://topfastcasino.xyz/deposit/webmoney/
+[2020-10-30 16:19:44] [preloader::task] Preloading URL https://topfastcasino.xyz/deposit/webmoney/page/2/
+[2020-10-30 16:19:46] [preloader::task] Preloading URL https://topfastcasino.xyz/deposit/yandeks-dengi/
+[2020-10-30 16:19:48] [preloader::task] Preloading URL https://topfastcasino.xyz/deposit/yandeks-dengi/page/2/
+[2020-10-30 16:19:50] [preloader::task] Preloading URL https://topfastcasino.xyz/currency/dollar-ssha/
+[2020-10-30 16:22:55] [preloader::task] Preloading URL https://topfastcasino.xyz/currency/dollar-ssha/page/2/
+[2020-10-30 16:22:58] [preloader::task] Preloading URL https://topfastcasino.xyz/currency/evro/
+[2020-10-30 16:23:01] [preloader::task] Preloading URL https://topfastcasino.xyz/currency/%d1%80%d0%be%d1%81%d1%81%d0%b8%d0%b9%d1%81%d0%ba%d0%b8%d0%b9-%d1%80%d1%83%d0%b1%d0%bb%d1%8c/
+[2020-10-30 16:23:04] [preloader::task] Preloading URL https://topfastcasino.xyz/currency/%d1%88%d0%b2%d0%b5%d0%b4%d1%81%d0%ba%d0%b0%d1%8f-%d0%ba%d1%80%d0%be%d0%bd%d0%b0/
+[2020-10-30 16:23:07] [preloader::task] Preloading URL https://topfastcasino.xyz/cashout/neteller/
+[2020-10-30 16:23:09] [preloader::task] Preloading URL https://topfastcasino.xyz/cashout/neteller/page/2/
+[2020-10-30 16:23:11] [preloader::task] Preloading URL https://topfastcasino.xyz/cashout/qiwi/
+[2020-10-30 16:23:14] [preloader::task] Preloading URL https://topfastcasino.xyz/cashout/qiwi/page/2/
+[2020-10-30 16:28:33] [preloader::task] Preloading URL https://topfastcasino.xyz/cashout/skrill/
+[2020-10-30 16:28:35] [preloader::task] Preloading URL https://topfastcasino.xyz/cashout/skrill/page/2/
+[2020-10-30 16:28:38] [preloader::task] Preloading URL https://topfastcasino.xyz/cashout/sofort/
+[2020-10-30 16:28:41] [preloader::task] Preloading URL https://topfastcasino.xyz/cashout/visa/
+[2020-10-30 16:28:43] [preloader::task] Preloading URL https://topfastcasino.xyz/cashout/visa/page/2/
+[2020-10-30 16:28:46] [preloader::task] Preloading URL https://topfastcasino.xyz/cashout/webmoney/
+[2020-10-30 16:28:49] [preloader::task] Preloading URL https://topfastcasino.xyz/cashout/webmoney/page/2/
+[2020-10-30 16:28:52] [preloader::task] Preloading URL https://topfastcasino.xyz/cashout/bankovskij-perevod/
+[2020-10-30 16:33:49] [preloader::task] Preloading URL https://topfastcasino.xyz/cashout/bankovskij-perevod/page/2/
+[2020-10-30 16:33:52] [preloader::task] Preloading URL https://topfastcasino.xyz/cashout/yandeks-dengi/
+[2020-10-30 16:33:54] [preloader::task] Preloading URL https://topfastcasino.xyz/cashout/yandeks-dengi/page/2/
+[2020-10-30 16:33:57] [preloader::task] Preloading URL https://topfastcasino.xyz/soft/belatra/
+[2020-10-30 16:34:00] [preloader::task] Preloading URL https://topfastcasino.xyz/soft/betsoft/
+[2020-10-30 16:34:03] [preloader::task] Preloading URL https://topfastcasino.xyz/soft/betsoft/page/2/
+[2020-10-30 16:34:06] [preloader::task] Preloading URL https://topfastcasino.xyz/soft/egt/
+[2020-10-30 16:37:33] [preloader::task] Preloading URL https://topfastcasino.xyz/soft/elk/
+[2020-10-30 16:37:36] [preloader::task] Preloading URL https://topfastcasino.xyz/soft/elk/page/2/
+[2020-10-30 16:37:39] [preloader::task] Preloading URL https://topfastcasino.xyz/soft/evolution-gaming/
+[2020-10-30 16:37:42] [preloader::task] Preloading URL https://topfastcasino.xyz/soft/gameart/
+[2020-10-30 16:37:45] [preloader::task] Preloading URL https://topfastcasino.xyz/soft/gameart/page/2/
+[2020-10-30 16:37:48] [preloader::task] Preloading URL https://topfastcasino.xyz/soft/microgaming/
+[2020-10-30 16:37:50] [preloader::task] Preloading URL https://topfastcasino.xyz/soft/microgaming/page/2/
+[2020-10-30 16:37:52] [preloader::task] Preloading URL https://topfastcasino.xyz/soft/netent/
+[2020-10-30 16:42:37] [preloader::task] Preloading URL https://topfastcasino.xyz/soft/netent/page/2/
+[2020-10-30 16:42:40] [preloader::task] Preloading URL https://topfastcasino.xyz/soft/nyx/
+[2020-10-30 16:42:43] [preloader::task] Preloading complete
+[2020-10-30 19:38:33] [cache_controller::purge_cache_queue_write] queue file not exist
+[2020-10-30 19:38:33] [cache_controller::purge_cache_on_post_edit] Purge Cloudflare cache for only post id 1295 and related contents
+[2020-10-30 19:38:33] [cache_controller::purge_cache_on_post_edit] Purge Cloudflare cache for only post id 1295 and related contents
+[2020-10-30 19:38:33] [cache_controller::purge_cache_on_post_edit] Purge Cloudflare cache for only post id 1295 and related contents
+[2020-10-30 19:38:33] [cache_controller::purge_cache_on_post_edit] Purge Cloudflare cache for only post id 1295 and related contents
+[2020-10-30 19:38:38] [cache_controller::purge_cache_queue_job] I'm the purge cache cronjob
+[2020-10-30 19:38:38] [cloudflare::purge_cache_urls] Request URL: https://api.cloudflare.com/client/v4/zones/81114c972f3c9a9cb976561d1d94eb66/purge_cache
+[2020-10-30 19:38:38] [cloudflare::purge_cache_urls] Request Body: {"files":["https:\/\/topfastcasino.xyz\/category\/blog\/","https:\/\/topfastcasino.xyz\/category\/blog\/page\/2\/","https:\/\/topfastcasino.xyz\/category\/blog\/page\/3\/","https:\/\/topfastcasino.xyz\/author\/gambler\/","https:\/\/topfastcasino.xyz\/author\/gambler\/feed\/","https:\/\/topfastcasino.xyz","https:\/\/topfastcasino.xyz?feed=rss2","https:\/\/topfastcasino.xyz\/samoe-chestnoe-onlain-kazino\/","https:\/\/topfastcasino.xyz\/"]}
+[2020-10-30 19:38:38] [cloudflare::purge_cache_urls] Response: {
+  "result": {
+    "id": "81114c972f3c9a9cb976561d1d94eb66"
+  },
+  "success": true,
+  "errors": [],
+  "messages": []
+}
+
+[2020-10-30 19:38:39] [cloudflare::get_cloudflare_cookie] Cookies found: Array
+(
+    [0] => WP_Http_Cookie Object
+        (
+            [name] => PHPSESSID
+            [value] => cc8585fe95f5da2ea0a10fbce26a5672
+            [expires] => 
+            [path] => /
+            [domain] => topfastcasino.xyz
+            [host_only] => 1
+        )
+
+    [1] => WP_Http_Cookie Object
+        (
+            [name] => _se_tokken_auth
+            [value] => 70530676b598
+            [expires] => 1604090319
+            [path] => /
+            [domain] => topfastcasino.xyz
+            [host_only] => 
+        )
+
+)
+
+[2020-10-30 19:38:39] [cloudflare::get_cloudflare_cookie] Cookie __cfduid not found
+[2020-10-30 19:38:39] [cache_controller::start_cache_preloader_for_specific_urls] Adding these URLs to preloader queue: Array
+(
+    [0] => https://topfastcasino.xyz/category/blog/
+    [1] => https://topfastcasino.xyz/category/blog/page/2/
+    [2] => https://topfastcasino.xyz/category/blog/page/3/
+    [3] => https://topfastcasino.xyz/author/gambler/
+    [4] => https://topfastcasino.xyz/author/gambler/feed/
+    [5] => https://topfastcasino.xyz
+    [6] => https://topfastcasino.xyz?feed=rss2
+    [7] => https://topfastcasino.xyz/samoe-chestnoe-onlain-kazino/
+    [8] => https://topfastcasino.xyz/
+)
+
+[2020-10-30 19:38:39] [cache_controller::purge_urls] Purge whole Cloudflare cache
+[2020-10-30 19:38:39] [cache_controller::purge_cache_queue_job] Cache purged
+[2020-10-30 19:38:41] [preloader::task] Preloading URL https://topfastcasino.xyz/category/blog/
+[2020-10-30 19:38:44] [preloader::task] Preloading URL https://topfastcasino.xyz/category/blog/page/2/
+[2020-10-30 19:38:46] [preloader::task] Preloading URL https://topfastcasino.xyz/category/blog/page/3/
+[2020-10-30 19:38:48] [preloader::task] Preloading URL https://topfastcasino.xyz/author/gambler/
+[2020-10-30 19:38:50] [preloader::task] Preloading URL https://topfastcasino.xyz/author/gambler/feed/
+[2020-10-30 19:38:52] [preloader::task] Preloading URL https://topfastcasino.xyz
+[2020-10-30 19:38:54] [preloader::task] Preloading URL https://topfastcasino.xyz?feed=rss2
+[2020-10-30 19:38:57] [preloader::task] Preloading URL https://topfastcasino.xyz/samoe-chestnoe-onlain-kazino/
+[2020-10-30 19:38:59] [preloader::task] Preloading URL https://topfastcasino.xyz/
+[2020-10-30 19:39:01] [preloader::task] Preloading complete
+[2020-10-31 08:01:35] [cache_controller::purge_cache_queue_write] queue file not exist
+[2020-10-31 08:01:35] [cache_controller::purge_cache_on_post_edit] Purge Cloudflare cache for only post id 1450 and related contents
+[2020-10-31 08:01:35] [cache_controller::purge_cache_on_post_edit] Purge Cloudflare cache for only post id 1450 and related contents
+[2020-10-31 08:01:36] [cache_controller::purge_cache_on_post_edit] Purge Cloudflare cache for only post id 1450 and related contents
+[2020-10-31 08:01:38] [cache_controller::purge_cache_queue_job] I'm the purge cache cronjob
+[2020-10-31 08:01:38] [cloudflare::purge_cache_urls] Request URL: https://api.cloudflare.com/client/v4/zones/81114c972f3c9a9cb976561d1d94eb66/purge_cache
+[2020-10-31 08:01:38] [cloudflare::purge_cache_urls] Request Body: {"files":["https:\/\/topfastcasino.xyz\/deposit\/neteller\/","https:\/\/topfastcasino.xyz\/deposit\/neteller\/page\/2\/","https:\/\/topfastcasino.xyz\/deposit\/qiwi\/","https:\/\/topfastcasino.xyz\/deposit\/qiwi\/page\/2\/","https:\/\/topfastcasino.xyz\/deposit\/skrill\/","https:\/\/topfastcasino.xyz\/deposit\/skrill\/page\/2\/","https:\/\/topfastcasino.xyz\/deposit\/visa-mastercard\/","https:\/\/topfastcasino.xyz\/deposit\/visa-mastercard\/page\/2\/","https:\/\/topfastcasino.xyz\/deposit\/webmoney\/","https:\/\/topfastcasino.xyz\/deposit\/webmoney\/page\/2\/","https:\/\/topfastcasino.xyz\/deposit\/yandeks-dengi\/","https:\/\/topfastcasino.xyz\/deposit\/yandeks-dengi\/page\/2\/","https:\/\/topfastcasino.xyz\/currency\/dollar-ssha\/","https:\/\/topfastcasino.xyz\/currency\/dollar-ssha\/page\/2\/","https:\/\/topfastcasino.xyz\/currency\/evro\/","https:\/\/topfastcasino.xyz\/currency\/%d1%80%d0%be%d1%81%d1%81%d0%b8%d0%b9%d1%81%d0%ba%d0%b8%d0%b9-%d1%80%d1%83%d0%b1%d0%bb%d1%8c\/","https:\/\/topfastcasino.xyz\/cashout\/qiwi\/","https:\/\/topfastcasino.xyz\/cashout\/qiwi\/page\/2\/","https:\/\/topfastcasino.xyz\/cashout\/webmoney\/","https:\/\/topfastcasino.xyz\/cashout\/webmoney\/page\/2\/","https:\/\/topfastcasino.xyz\/cashout\/bankovskij-perevod\/","https:\/\/topfastcasino.xyz\/cashout\/bankovskij-perevod\/page\/2\/","https:\/\/topfastcasino.xyz\/cashout\/yandeks-dengi\/","https:\/\/topfastcasino.xyz\/cashout\/yandeks-dengi\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/amatic\/","https:\/\/topfastcasino.xyz\/soft\/amatic\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/belatra\/","https:\/\/topfastcasino.xyz\/soft\/betsoft\/","https:\/\/topfastcasino.xyz\/soft\/betsoft\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/btg\/"]}
+[2020-10-31 08:01:38] [cloudflare::purge_cache_urls] Response: {
+  "result": {
+    "id": "81114c972f3c9a9cb976561d1d94eb66"
+  },
+  "success": true,
+  "errors": [],
+  "messages": []
+}
+
+[2020-10-31 08:01:38] [cloudflare::purge_cache_urls] Request URL: https://api.cloudflare.com/client/v4/zones/81114c972f3c9a9cb976561d1d94eb66/purge_cache
+[2020-10-31 08:01:38] [cloudflare::purge_cache_urls] Request Body: {"files":["https:\/\/topfastcasino.xyz\/soft\/egt\/","https:\/\/topfastcasino.xyz\/soft\/elk\/","https:\/\/topfastcasino.xyz\/soft\/elk\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/endorphina\/","https:\/\/topfastcasino.xyz\/soft\/endorphina\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/evolution-gaming\/","https:\/\/topfastcasino.xyz\/soft\/gameart\/","https:\/\/topfastcasino.xyz\/soft\/gameart\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/habanero\/","https:\/\/topfastcasino.xyz\/soft\/isoftbet\/","https:\/\/topfastcasino.xyz\/soft\/microgaming\/","https:\/\/topfastcasino.xyz\/soft\/microgaming\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/netent\/","https:\/\/topfastcasino.xyz\/soft\/netent\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/nyx\/","https:\/\/topfastcasino.xyz\/soft\/nyx\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/playn-go\/","https:\/\/topfastcasino.xyz\/soft\/pragmatic-play\/","https:\/\/topfastcasino.xyz\/soft\/pragmatic-play\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/spinomenal\/","https:\/\/topfastcasino.xyz\/soft\/thunderkick\/","https:\/\/topfastcasino.xyz\/soft\/thunderkick\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/yggdrasil\/","https:\/\/topfastcasino.xyz\/soft\/yggdrasil\/page\/2\/","https:\/\/topfastcasino.xyz\/license\/kyurasao\/","https:\/\/topfastcasino.xyz\/author\/gambler\/","https:\/\/topfastcasino.xyz\/author\/gambler\/feed\/","https:\/\/topfastcasino.xyz\/casino\/","https:\/\/topfastcasino.xyz\/casino\/feed\/","https:\/\/topfastcasino.xyz\/casino\/rox-casino\/"]}
+[2020-10-31 08:01:39] [cloudflare::purge_cache_urls] Response: {
+  "result": {
+    "id": "81114c972f3c9a9cb976561d1d94eb66"
+  },
+  "success": true,
+  "errors": [],
+  "messages": []
+}
+
+[2020-10-31 08:01:39] [cloudflare::purge_cache_urls] Request URL: https://api.cloudflare.com/client/v4/zones/81114c972f3c9a9cb976561d1d94eb66/purge_cache
+[2020-10-31 08:01:39] [cloudflare::purge_cache_urls] Request Body: {"files":["https:\/\/topfastcasino.xyz\/"]}
+[2020-10-31 08:01:39] [cloudflare::purge_cache_urls] Response: {
+  "result": {
+    "id": "81114c972f3c9a9cb976561d1d94eb66"
+  },
+  "success": true,
+  "errors": [],
+  "messages": []
+}
+
+[2020-10-31 08:01:41] [cloudflare::get_cloudflare_cookie] No cookies found in response HTTP packet
+[2020-10-31 08:01:41] [cache_controller::start_cache_preloader_for_specific_urls] Adding these URLs to preloader queue: Array
+(
+    [0] => https://topfastcasino.xyz/deposit/neteller/
+    [1] => https://topfastcasino.xyz/deposit/neteller/page/2/
+    [2] => https://topfastcasino.xyz/deposit/qiwi/
+    [3] => https://topfastcasino.xyz/deposit/qiwi/page/2/
+    [4] => https://topfastcasino.xyz/deposit/skrill/
+    [5] => https://topfastcasino.xyz/deposit/skrill/page/2/
+    [6] => https://topfastcasino.xyz/deposit/visa-mastercard/
+    [7] => https://topfastcasino.xyz/deposit/visa-mastercard/page/2/
+    [8] => https://topfastcasino.xyz/deposit/webmoney/
+    [9] => https://topfastcasino.xyz/deposit/webmoney/page/2/
+    [10] => https://topfastcasino.xyz/deposit/yandeks-dengi/
+    [11] => https://topfastcasino.xyz/deposit/yandeks-dengi/page/2/
+    [12] => https://topfastcasino.xyz/currency/dollar-ssha/
+    [13] => https://topfastcasino.xyz/currency/dollar-ssha/page/2/
+    [14] => https://topfastcasino.xyz/currency/evro/
+    [15] => https://topfastcasino.xyz/currency/%d1%80%d0%be%d1%81%d1%81%d0%b8%d0%b9%d1%81%d0%ba%d0%b8%d0%b9-%d1%80%d1%83%d0%b1%d0%bb%d1%8c/
+    [16] => https://topfastcasino.xyz/cashout/qiwi/
+    [17] => https://topfastcasino.xyz/cashout/qiwi/page/2/
+    [18] => https://topfastcasino.xyz/cashout/webmoney/
+    [19] => https://topfastcasino.xyz/cashout/webmoney/page/2/
+    [20] => https://topfastcasino.xyz/cashout/bankovskij-perevod/
+    [21] => https://topfastcasino.xyz/cashout/bankovskij-perevod/page/2/
+    [22] => https://topfastcasino.xyz/cashout/yandeks-dengi/
+    [23] => https://topfastcasino.xyz/cashout/yandeks-dengi/page/2/
+    [24] => https://topfastcasino.xyz/soft/amatic/
+    [25] => https://topfastcasino.xyz/soft/amatic/page/2/
+    [26] => https://topfastcasino.xyz/soft/belatra/
+    [27] => https://topfastcasino.xyz/soft/betsoft/
+    [28] => https://topfastcasino.xyz/soft/betsoft/page/2/
+    [29] => https://topfastcasino.xyz/soft/btg/
+    [30] => https://topfastcasino.xyz/soft/egt/
+    [31] => https://topfastcasino.xyz/soft/elk/
+    [32] => https://topfastcasino.xyz/soft/elk/page/2/
+    [33] => https://topfastcasino.xyz/soft/endorphina/
+    [34] => https://topfastcasino.xyz/soft/endorphina/page/2/
+    [35] => https://topfastcasino.xyz/soft/evolution-gaming/
+    [36] => https://topfastcasino.xyz/soft/gameart/
+    [37] => https://topfastcasino.xyz/soft/gameart/page/2/
+    [38] => https://topfastcasino.xyz/soft/habanero/
+    [39] => https://topfastcasino.xyz/soft/isoftbet/
+    [40] => https://topfastcasino.xyz/soft/microgaming/
+    [41] => https://topfastcasino.xyz/soft/microgaming/page/2/
+    [42] => https://topfastcasino.xyz/soft/netent/
+    [43] => https://topfastcasino.xyz/soft/netent/page/2/
+    [44] => https://topfastcasino.xyz/soft/nyx/
+    [45] => https://topfastcasino.xyz/soft/nyx/page/2/
+    [46] => https://topfastcasino.xyz/soft/playn-go/
+    [47] => https://topfastcasino.xyz/soft/pragmatic-play/
+    [48] => https://topfastcasino.xyz/soft/pragmatic-play/page/2/
+    [49] => https://topfastcasino.xyz/soft/spinomenal/
+    [50] => https://topfastcasino.xyz/soft/thunderkick/
+    [51] => https://topfastcasino.xyz/soft/thunderkick/page/2/
+    [52] => https://topfastcasino.xyz/soft/yggdrasil/
+    [53] => https://topfastcasino.xyz/soft/yggdrasil/page/2/
+    [54] => https://topfastcasino.xyz/license/kyurasao/
+    [55] => https://topfastcasino.xyz/author/gambler/
+    [56] => https://topfastcasino.xyz/author/gambler/feed/
+    [57] => https://topfastcasino.xyz/casino/
+    [58] => https://topfastcasino.xyz/casino/feed/
+    [59] => https://topfastcasino.xyz/casino/rox-casino/
+    [60] => https://topfastcasino.xyz/
+)
+
+[2020-10-31 08:01:41] [cache_controller::purge_urls] Purge whole Cloudflare cache
+[2020-10-31 08:01:41] [cache_controller::purge_cache_queue_job] Cache purged
+[2020-10-31 08:01:43] [preloader::task] Preloading URL https://topfastcasino.xyz/deposit/neteller/
+[2020-10-31 08:01:46] [preloader::task] Preloading URL https://topfastcasino.xyz/deposit/neteller/page/2/
+[2020-10-31 08:01:49] [preloader::task] Preloading URL https://topfastcasino.xyz/deposit/qiwi/
+[2020-10-31 08:01:52] [preloader::task] Preloading URL https://topfastcasino.xyz/deposit/qiwi/page/2/
+[2020-10-31 08:01:55] [preloader::task] Preloading URL https://topfastcasino.xyz/deposit/skrill/
+[2020-10-31 08:01:58] [preloader::task] Preloading URL https://topfastcasino.xyz/deposit/skrill/page/2/
+[2020-10-31 08:02:02] [preloader::task] Preloading URL https://topfastcasino.xyz/deposit/visa-mastercard/
+[2020-10-31 08:02:02] [cloudflare::purge_cache] Request URL: https://api.cloudflare.com/client/v4/zones/81114c972f3c9a9cb976561d1d94eb66/purge_cache
+[2020-10-31 08:02:02] [cloudflare::purge_cache] Request Body: {"purge_everything":true}
+[2020-10-31 08:02:04] [cloudflare::purge_cache] Response: {
+  "result": {
+    "id": "81114c972f3c9a9cb976561d1d94eb66"
+  },
+  "success": true,
+  "errors": [],
+  "messages": []
+}
+
+[2020-10-31 08:02:04] [cache_controller::purge_all] Purge whole Cloudflare cache
+[2020-10-31 08:02:04] [cache_controller::ajax_purge_whole_cache] Purge whole Cloudflare cache
+[2020-10-31 08:02:52] [cache_controller::purge_cache_queue_write] queue file not exist
+[2020-10-31 08:02:52] [cache_controller::purge_cache_on_post_edit] Purge Cloudflare cache for only post id 1450 and related contents
+[2020-10-31 08:02:52] [cache_controller::purge_cache_on_post_edit] Purge Cloudflare cache for only post id 1450 and related contents
+[2020-10-31 08:02:53] [cache_controller::purge_cache_on_post_edit] Purge Cloudflare cache for only post id 1450 and related contents
+[2020-10-31 08:02:54] [cache_controller::purge_cache_queue_job] I'm the purge cache cronjob
+[2020-10-31 08:02:54] [cloudflare::purge_cache_urls] Request URL: https://api.cloudflare.com/client/v4/zones/81114c972f3c9a9cb976561d1d94eb66/purge_cache
+[2020-10-31 08:02:54] [cloudflare::purge_cache_urls] Request Body: {"files":["https:\/\/topfastcasino.xyz\/deposit\/neteller\/","https:\/\/topfastcasino.xyz\/deposit\/neteller\/page\/2\/","https:\/\/topfastcasino.xyz\/deposit\/qiwi\/","https:\/\/topfastcasino.xyz\/deposit\/qiwi\/page\/2\/","https:\/\/topfastcasino.xyz\/deposit\/skrill\/","https:\/\/topfastcasino.xyz\/deposit\/skrill\/page\/2\/","https:\/\/topfastcasino.xyz\/deposit\/visa-mastercard\/","https:\/\/topfastcasino.xyz\/deposit\/visa-mastercard\/page\/2\/","https:\/\/topfastcasino.xyz\/deposit\/webmoney\/","https:\/\/topfastcasino.xyz\/deposit\/webmoney\/page\/2\/","https:\/\/topfastcasino.xyz\/deposit\/yandeks-dengi\/","https:\/\/topfastcasino.xyz\/deposit\/yandeks-dengi\/page\/2\/","https:\/\/topfastcasino.xyz\/currency\/dollar-ssha\/","https:\/\/topfastcasino.xyz\/currency\/dollar-ssha\/page\/2\/","https:\/\/topfastcasino.xyz\/currency\/evro\/","https:\/\/topfastcasino.xyz\/currency\/%d1%80%d0%be%d1%81%d1%81%d0%b8%d0%b9%d1%81%d0%ba%d0%b8%d0%b9-%d1%80%d1%83%d0%b1%d0%bb%d1%8c\/","https:\/\/topfastcasino.xyz\/cashout\/qiwi\/","https:\/\/topfastcasino.xyz\/cashout\/qiwi\/page\/2\/","https:\/\/topfastcasino.xyz\/cashout\/webmoney\/","https:\/\/topfastcasino.xyz\/cashout\/webmoney\/page\/2\/","https:\/\/topfastcasino.xyz\/cashout\/bankovskij-perevod\/","https:\/\/topfastcasino.xyz\/cashout\/bankovskij-perevod\/page\/2\/","https:\/\/topfastcasino.xyz\/cashout\/yandeks-dengi\/","https:\/\/topfastcasino.xyz\/cashout\/yandeks-dengi\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/amatic\/","https:\/\/topfastcasino.xyz\/soft\/amatic\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/belatra\/","https:\/\/topfastcasino.xyz\/soft\/betsoft\/","https:\/\/topfastcasino.xyz\/soft\/betsoft\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/btg\/"]}
+[2020-10-31 08:02:55] [cloudflare::purge_cache_urls] Response: {
+  "result": {
+    "id": "81114c972f3c9a9cb976561d1d94eb66"
+  },
+  "success": true,
+  "errors": [],
+  "messages": []
+}
+
+[2020-10-31 08:02:55] [cloudflare::purge_cache_urls] Request URL: https://api.cloudflare.com/client/v4/zones/81114c972f3c9a9cb976561d1d94eb66/purge_cache
+[2020-10-31 08:02:55] [cloudflare::purge_cache_urls] Request Body: {"files":["https:\/\/topfastcasino.xyz\/soft\/egt\/","https:\/\/topfastcasino.xyz\/soft\/elk\/","https:\/\/topfastcasino.xyz\/soft\/elk\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/endorphina\/","https:\/\/topfastcasino.xyz\/soft\/endorphina\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/evolution-gaming\/","https:\/\/topfastcasino.xyz\/soft\/gameart\/","https:\/\/topfastcasino.xyz\/soft\/gameart\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/habanero\/","https:\/\/topfastcasino.xyz\/soft\/isoftbet\/","https:\/\/topfastcasino.xyz\/soft\/microgaming\/","https:\/\/topfastcasino.xyz\/soft\/microgaming\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/netent\/","https:\/\/topfastcasino.xyz\/soft\/netent\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/nyx\/","https:\/\/topfastcasino.xyz\/soft\/nyx\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/playn-go\/","https:\/\/topfastcasino.xyz\/soft\/pragmatic-play\/","https:\/\/topfastcasino.xyz\/soft\/pragmatic-play\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/spinomenal\/","https:\/\/topfastcasino.xyz\/soft\/thunderkick\/","https:\/\/topfastcasino.xyz\/soft\/thunderkick\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/yggdrasil\/","https:\/\/topfastcasino.xyz\/soft\/yggdrasil\/page\/2\/","https:\/\/topfastcasino.xyz\/license\/kyurasao\/","https:\/\/topfastcasino.xyz\/author\/gambler\/","https:\/\/topfastcasino.xyz\/author\/gambler\/feed\/","https:\/\/topfastcasino.xyz\/casino\/","https:\/\/topfastcasino.xyz\/casino\/feed\/","https:\/\/topfastcasino.xyz\/casino\/rox-casino\/"]}
+[2020-10-31 08:02:55] [cloudflare::purge_cache_urls] Response: {
+  "result": {
+    "id": "81114c972f3c9a9cb976561d1d94eb66"
+  },
+  "success": true,
+  "errors": [],
+  "messages": []
+}
+
+[2020-10-31 08:02:55] [cloudflare::purge_cache_urls] Request URL: https://api.cloudflare.com/client/v4/zones/81114c972f3c9a9cb976561d1d94eb66/purge_cache
+[2020-10-31 08:02:55] [cloudflare::purge_cache_urls] Request Body: {"files":["https:\/\/topfastcasino.xyz\/"]}
+[2020-10-31 08:02:56] [cloudflare::purge_cache_urls] Response: {
+  "result": {
+    "id": "81114c972f3c9a9cb976561d1d94eb66"
+  },
+  "success": true,
+  "errors": [],
+  "messages": []
+}
+
+[2020-10-31 08:02:56] [cache_controller::start_cache_preloader_for_specific_urls] Unable to start the preloader. Another preloading process is currently running.
+[2020-10-31 08:02:56] [cache_controller::purge_urls] Purge whole Cloudflare cache
+[2020-10-31 08:02:56] [cache_controller::purge_cache_queue_job] Cache purged
+[2020-10-31 08:03:50] [cache_controller::purge_cache_queue_write] queue file not exist
+[2020-10-31 08:03:50] [cache_controller::purge_cache_on_post_edit] Purge Cloudflare cache for only post id 187 and related contents
+[2020-10-31 08:03:50] [cache_controller::purge_cache_on_post_edit] Purge Cloudflare cache for only post id 187 and related contents
+[2020-10-31 08:03:51] [cache_controller::purge_cache_on_post_edit] Purge Cloudflare cache for only post id 187 and related contents
+[2020-10-31 08:03:53] [cache_controller::purge_cache_queue_job] I'm the purge cache cronjob
+[2020-10-31 08:03:53] [cloudflare::purge_cache_urls] Request URL: https://api.cloudflare.com/client/v4/zones/81114c972f3c9a9cb976561d1d94eb66/purge_cache
+[2020-10-31 08:03:53] [cloudflare::purge_cache_urls] Request Body: {"files":["https:\/\/topfastcasino.xyz\/deposit\/neteller\/","https:\/\/topfastcasino.xyz\/deposit\/neteller\/page\/2\/","https:\/\/topfastcasino.xyz\/deposit\/qiwi\/","https:\/\/topfastcasino.xyz\/deposit\/qiwi\/page\/2\/","https:\/\/topfastcasino.xyz\/deposit\/skrill\/","https:\/\/topfastcasino.xyz\/deposit\/skrill\/page\/2\/","https:\/\/topfastcasino.xyz\/deposit\/visa-mastercard\/","https:\/\/topfastcasino.xyz\/deposit\/visa-mastercard\/page\/2\/","https:\/\/topfastcasino.xyz\/deposit\/webmoney\/","https:\/\/topfastcasino.xyz\/deposit\/webmoney\/page\/2\/","https:\/\/topfastcasino.xyz\/deposit\/yandeks-dengi\/","https:\/\/topfastcasino.xyz\/deposit\/yandeks-dengi\/page\/2\/","https:\/\/topfastcasino.xyz\/currency\/dollar-ssha\/","https:\/\/topfastcasino.xyz\/currency\/dollar-ssha\/page\/2\/","https:\/\/topfastcasino.xyz\/currency\/evro\/","https:\/\/topfastcasino.xyz\/currency\/%d1%80%d0%be%d1%81%d1%81%d0%b8%d0%b9%d1%81%d0%ba%d0%b8%d0%b9-%d1%80%d1%83%d0%b1%d0%bb%d1%8c\/","https:\/\/topfastcasino.xyz\/currency\/%d1%88%d0%b2%d0%b5%d0%b4%d1%81%d0%ba%d0%b0%d1%8f-%d0%ba%d1%80%d0%be%d0%bd%d0%b0\/","https:\/\/topfastcasino.xyz\/cashout\/neteller\/","https:\/\/topfastcasino.xyz\/cashout\/neteller\/page\/2\/","https:\/\/topfastcasino.xyz\/cashout\/qiwi\/","https:\/\/topfastcasino.xyz\/cashout\/qiwi\/page\/2\/","https:\/\/topfastcasino.xyz\/cashout\/skrill\/","https:\/\/topfastcasino.xyz\/cashout\/skrill\/page\/2\/","https:\/\/topfastcasino.xyz\/cashout\/sofort\/","https:\/\/topfastcasino.xyz\/cashout\/visa\/","https:\/\/topfastcasino.xyz\/cashout\/visa\/page\/2\/","https:\/\/topfastcasino.xyz\/cashout\/webmoney\/","https:\/\/topfastcasino.xyz\/cashout\/webmoney\/page\/2\/","https:\/\/topfastcasino.xyz\/cashout\/bankovskij-perevod\/","https:\/\/topfastcasino.xyz\/cashout\/bankovskij-perevod\/page\/2\/"]}
+[2020-10-31 08:03:53] [cloudflare::purge_cache_urls] Response: {
+  "result": {
+    "id": "81114c972f3c9a9cb976561d1d94eb66"
+  },
+  "success": true,
+  "errors": [],
+  "messages": []
+}
+
+[2020-10-31 08:03:53] [cloudflare::purge_cache_urls] Request URL: https://api.cloudflare.com/client/v4/zones/81114c972f3c9a9cb976561d1d94eb66/purge_cache
+[2020-10-31 08:03:53] [cloudflare::purge_cache_urls] Request Body: {"files":["https:\/\/topfastcasino.xyz\/cashout\/yandeks-dengi\/","https:\/\/topfastcasino.xyz\/cashout\/yandeks-dengi\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/belatra\/","https:\/\/topfastcasino.xyz\/soft\/betsoft\/","https:\/\/topfastcasino.xyz\/soft\/betsoft\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/egt\/","https:\/\/topfastcasino.xyz\/soft\/elk\/","https:\/\/topfastcasino.xyz\/soft\/elk\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/evolution-gaming\/","https:\/\/topfastcasino.xyz\/soft\/gameart\/","https:\/\/topfastcasino.xyz\/soft\/gameart\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/microgaming\/","https:\/\/topfastcasino.xyz\/soft\/microgaming\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/netent\/","https:\/\/topfastcasino.xyz\/soft\/netent\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/nyx\/","https:\/\/topfastcasino.xyz\/soft\/nyx\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/playn-go\/","https:\/\/topfastcasino.xyz\/soft\/pragmatic-play\/","https:\/\/topfastcasino.xyz\/soft\/pragmatic-play\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/spinomenal\/","https:\/\/topfastcasino.xyz\/soft\/thunderkick\/","https:\/\/topfastcasino.xyz\/soft\/thunderkick\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/yggdrasil\/","https:\/\/topfastcasino.xyz\/soft\/yggdrasil\/page\/2\/","https:\/\/topfastcasino.xyz\/restricted\/belgiya\/","https:\/\/topfastcasino.xyz\/restricted\/belgiya\/page\/2\/","https:\/\/topfastcasino.xyz\/restricted\/daniya\/","https:\/\/topfastcasino.xyz\/restricted\/daniya\/page\/2\/","https:\/\/topfastcasino.xyz\/restricted\/ssha\/"]}
+[2020-10-31 08:03:53] [cloudflare::purge_cache_urls] Response: {
+  "result": {
+    "id": "81114c972f3c9a9cb976561d1d94eb66"
+  },
+  "success": true,
+  "errors": [],
+  "messages": []
+}
+
+[2020-10-31 08:03:53] [cloudflare::purge_cache_urls] Request URL: https://api.cloudflare.com/client/v4/zones/81114c972f3c9a9cb976561d1d94eb66/purge_cache
+[2020-10-31 08:03:53] [cloudflare::purge_cache_urls] Request Body: {"files":["https:\/\/topfastcasino.xyz\/restricted\/ssha\/page\/2\/","https:\/\/topfastcasino.xyz\/restricted\/francziya\/","https:\/\/topfastcasino.xyz\/restricted\/francziya\/page\/2\/","https:\/\/topfastcasino.xyz\/license\/malta-gaming-authority\/","https:\/\/topfastcasino.xyz\/author\/gambler\/","https:\/\/topfastcasino.xyz\/author\/gambler\/feed\/","https:\/\/topfastcasino.xyz\/casino\/","https:\/\/topfastcasino.xyz\/casino\/feed\/","https:\/\/topfastcasino.xyz\/casino\/slotv\/","https:\/\/topfastcasino.xyz\/"]}
+[2020-10-31 08:03:54] [cloudflare::purge_cache_urls] Response: {
+  "result": {
+    "id": "81114c972f3c9a9cb976561d1d94eb66"
+  },
+  "success": true,
+  "errors": [],
+  "messages": []
+}
+
+[2020-10-31 08:03:54] [cache_controller::start_cache_preloader_for_specific_urls] Unable to start the preloader. Another preloading process is currently running.
+[2020-10-31 08:03:54] [cache_controller::purge_urls] Purge whole Cloudflare cache
+[2020-10-31 08:03:54] [cache_controller::purge_cache_queue_job] Cache purged
+[2020-10-31 08:04:07] [cache_controller::purge_cache_queue_write] queue file not exist
+[2020-10-31 08:04:07] [cache_controller::purge_cache_on_post_edit] Purge Cloudflare cache for only post id 179 and related contents
+[2020-10-31 08:04:07] [cache_controller::purge_cache_on_post_edit] Purge Cloudflare cache for only post id 179 and related contents
+[2020-10-31 08:04:07] [cache_controller::purge_cache_on_post_edit] Purge Cloudflare cache for only post id 179 and related contents
+[2020-10-31 08:04:09] [cache_controller::purge_cache_queue_job] I'm the purge cache cronjob
+[2020-10-31 08:04:09] [cloudflare::purge_cache_urls] Request URL: https://api.cloudflare.com/client/v4/zones/81114c972f3c9a9cb976561d1d94eb66/purge_cache
+[2020-10-31 08:04:09] [cloudflare::purge_cache_urls] Request Body: {"files":["https:\/\/topfastcasino.xyz\/deposit\/neteller\/","https:\/\/topfastcasino.xyz\/deposit\/neteller\/page\/2\/","https:\/\/topfastcasino.xyz\/deposit\/qiwi\/","https:\/\/topfastcasino.xyz\/deposit\/qiwi\/page\/2\/","https:\/\/topfastcasino.xyz\/deposit\/skrill\/","https:\/\/topfastcasino.xyz\/deposit\/skrill\/page\/2\/","https:\/\/topfastcasino.xyz\/deposit\/visa-mastercard\/","https:\/\/topfastcasino.xyz\/deposit\/visa-mastercard\/page\/2\/","https:\/\/topfastcasino.xyz\/deposit\/webmoney\/","https:\/\/topfastcasino.xyz\/deposit\/webmoney\/page\/2\/","https:\/\/topfastcasino.xyz\/deposit\/yandeks-dengi\/","https:\/\/topfastcasino.xyz\/deposit\/yandeks-dengi\/page\/2\/","https:\/\/topfastcasino.xyz\/currency\/dollar-ssha\/","https:\/\/topfastcasino.xyz\/currency\/dollar-ssha\/page\/2\/","https:\/\/topfastcasino.xyz\/currency\/evro\/","https:\/\/topfastcasino.xyz\/currency\/%d0%ba%d0%b0%d0%b7%d0%b0%d1%85%d1%81%d1%82%d0%b0%d0%bd%d1%81%d0%ba%d0%b8%d0%b9-%d1%82%d0%b5%d0%bd%d0%b3%d0%b5\/","https:\/\/topfastcasino.xyz\/currency\/%d0%bf%d0%be%d0%bb%d1%8c%d1%81%d0%ba%d0%b8%d0%b9-%d0%b7%d0%bb%d0%be%d1%82%d1%8b%d0%b9\/","https:\/\/topfastcasino.xyz\/currency\/%d1%80%d0%be%d1%81%d1%81%d0%b8%d0%b9%d1%81%d0%ba%d0%b8%d0%b9-%d1%80%d1%83%d0%b1%d0%bb%d1%8c\/","https:\/\/topfastcasino.xyz\/cashout\/mastercard\/","https:\/\/topfastcasino.xyz\/cashout\/neteller\/","https:\/\/topfastcasino.xyz\/cashout\/neteller\/page\/2\/","https:\/\/topfastcasino.xyz\/cashout\/qiwi\/","https:\/\/topfastcasino.xyz\/cashout\/qiwi\/page\/2\/","https:\/\/topfastcasino.xyz\/cashout\/skrill\/","https:\/\/topfastcasino.xyz\/cashout\/skrill\/page\/2\/","https:\/\/topfastcasino.xyz\/cashout\/sms\/","https:\/\/topfastcasino.xyz\/cashout\/sofort\/","https:\/\/topfastcasino.xyz\/cashout\/visa\/","https:\/\/topfastcasino.xyz\/cashout\/visa\/page\/2\/","https:\/\/topfastcasino.xyz\/cashout\/webmoney\/"]}
+[2020-10-31 08:04:09] [cloudflare::purge_cache_urls] Response: {
+  "result": {
+    "id": "81114c972f3c9a9cb976561d1d94eb66"
+  },
+  "success": true,
+  "errors": [],
+  "messages": []
+}
+
+[2020-10-31 08:04:09] [cloudflare::purge_cache_urls] Request URL: https://api.cloudflare.com/client/v4/zones/81114c972f3c9a9cb976561d1d94eb66/purge_cache
+[2020-10-31 08:04:09] [cloudflare::purge_cache_urls] Request Body: {"files":["https:\/\/topfastcasino.xyz\/cashout\/webmoney\/page\/2\/","https:\/\/topfastcasino.xyz\/cashout\/bankovskij-perevod\/","https:\/\/topfastcasino.xyz\/cashout\/bankovskij-perevod\/page\/2\/","https:\/\/topfastcasino.xyz\/cashout\/yandeks-dengi\/","https:\/\/topfastcasino.xyz\/cashout\/yandeks-dengi\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/amatic\/","https:\/\/topfastcasino.xyz\/soft\/amatic\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/belatra\/","https:\/\/topfastcasino.xyz\/soft\/betsoft\/","https:\/\/topfastcasino.xyz\/soft\/betsoft\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/elk\/","https:\/\/topfastcasino.xyz\/soft\/elk\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/endorphina\/","https:\/\/topfastcasino.xyz\/soft\/endorphina\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/evolution-gaming\/","https:\/\/topfastcasino.xyz\/soft\/gameart\/","https:\/\/topfastcasino.xyz\/soft\/gameart\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/microgaming\/","https:\/\/topfastcasino.xyz\/soft\/microgaming\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/netent\/","https:\/\/topfastcasino.xyz\/soft\/netent\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/nyx\/","https:\/\/topfastcasino.xyz\/soft\/nyx\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/pragmatic-play\/","https:\/\/topfastcasino.xyz\/soft\/pragmatic-play\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/spinomenal\/","https:\/\/topfastcasino.xyz\/soft\/thunderkick\/","https:\/\/topfastcasino.xyz\/soft\/thunderkick\/page\/2\/","https:\/\/topfastcasino.xyz\/soft\/yggdrasil\/","https:\/\/topfastcasino.xyz\/soft\/yggdrasil\/page\/2\/"]}
+[2020-10-31 08:04:10] [cloudflare::purge_cache_urls] Response: {
+  "result": {
+    "id": "81114c972f3c9a9cb976561d1d94eb66"
+  },
+  "success": true,
+  "errors": [],
+  "messages": []
+}
+
+[2020-10-31 08:04:10] [cloudflare::purge_cache_urls] Request URL: https://api.cloudflare.com/client/v4/zones/81114c972f3c9a9cb976561d1d94eb66/purge_cache
+[2020-10-31 08:04:10] [cloudflare::purge_cache_urls] Request Body: {"files":["https:\/\/topfastcasino.xyz\/restricted\/belgiya\/","https:\/\/topfastcasino.xyz\/restricted\/belgiya\/page\/2\/","https:\/\/topfastcasino.xyz\/restricted\/%d0%b2%d0%b5%d0%bb%d0%b8%d0%ba%d0%be%d0%b1%d1%80%d0%b8%d1%82%d0%b0%d0%bd%d0%b8%d1%8f\/","https:\/\/topfastcasino.xyz\/restricted\/daniya\/","https:\/\/topfastcasino.xyz\/restricted\/daniya\/page\/2\/","https:\/\/topfastcasino.xyz\/restricted\/ssha\/","https:\/\/topfastcasino.xyz\/restricted\/ssha\/page\/2\/","https:\/\/topfastcasino.xyz\/restricted\/francziya\/","https:\/\/topfastcasino.xyz\/restricted\/francziya\/page\/2\/","https:\/\/topfastcasino.xyz\/license\/malta-gaming-authority\/","https:\/\/topfastcasino.xyz\/author\/gambler\/","https:\/\/topfastcasino.xyz\/author\/gambler\/feed\/","https:\/\/topfastcasino.xyz\/casino\/","https:\/\/topfastcasino.xyz\/casino\/feed\/","https:\/\/topfastcasino.xyz\/casino\/frankcasino\/","https:\/\/topfastcasino.xyz\/"]}
+[2020-10-31 08:04:10] [cloudflare::purge_cache_urls] Response: {
+  "result": {
+    "id": "81114c972f3c9a9cb976561d1d94eb66"
+  },
+  "success": true,
+  "errors": [],
+  "messages": []
+}
+
+[2020-10-31 08:04:10] [cache_controller::start_cache_preloader_for_specific_urls] Unable to start the preloader. Another preloading process is currently running.
+[2020-10-31 08:04:10] [cache_controller::purge_urls] Purge whole Cloudflare cache
+[2020-10-31 08:04:10] [cache_controller::purge_cache_queue_job] Cache purged
+[2020-10-31 08:06:42] [preloader::task] Preloading URL https://topfastcasino.xyz/deposit/visa-mastercard/page/2/
+[2020-10-31 08:06:45] [preloader::task] Preloading URL https://topfastcasino.xyz/deposit/webmoney/
+[2020-10-31 08:06:48] [preloader::task] Preloading URL https://topfastcasino.xyz/deposit/webmoney/page/2/
+[2020-10-31 08:06:51] [preloader::task] Preloading URL https://topfastcasino.xyz/deposit/yandeks-dengi/
+[2020-10-31 08:06:54] [preloader::task] Preloading URL https://topfastcasino.xyz/deposit/yandeks-dengi/page/2/
+[2020-10-31 08:06:58] [preloader::task] Preloading URL https://topfastcasino.xyz/currency/dollar-ssha/
+[2020-10-31 08:11:45] [preloader::task] Preloading URL https://topfastcasino.xyz/currency/dollar-ssha/page/2/
+[2020-10-31 08:11:49] [preloader::task] Preloading URL https://topfastcasino.xyz/currency/evro/
+[2020-10-31 08:11:52] [preloader::task] Preloading URL https://topfastcasino.xyz/currency/%d1%80%d0%be%d1%81%d1%81%d0%b8%d0%b9%d1%81%d0%ba%d0%b8%d0%b9-%d1%80%d1%83%d0%b1%d0%bb%d1%8c/
+[2020-10-31 08:11:55] [preloader::task] Preloading URL https://topfastcasino.xyz/cashout/qiwi/
+[2020-10-31 08:11:57] [preloader::task] Preloading URL https://topfastcasino.xyz/cashout/qiwi/page/2/
+[2020-10-31 08:12:00] [preloader::task] Preloading URL https://topfastcasino.xyz/cashout/webmoney/
+[2020-10-31 08:12:03] [preloader::task] Preloading URL https://topfastcasino.xyz/cashout/webmoney/page/2/
+[2020-10-31 08:16:47] [preloader::task] Preloading URL https://topfastcasino.xyz/cashout/bankovskij-perevod/
+[2020-10-31 08:16:50] [preloader::task] Preloading URL https://topfastcasino.xyz/cashout/bankovskij-perevod/page/2/
+[2020-10-31 08:16:53] [preloader::task] Preloading URL https://topfastcasino.xyz/cashout/yandeks-dengi/
+[2020-10-31 08:16:55] [preloader::task] Preloading URL https://topfastcasino.xyz/cashout/yandeks-dengi/page/2/
+[2020-10-31 08:16:58] [preloader::task] Preloading URL https://topfastcasino.xyz/soft/amatic/
+[2020-10-31 08:17:01] [preloader::task] Preloading URL https://topfastcasino.xyz/soft/amatic/page/2/
+[2020-10-31 08:17:04] [preloader::task] Preloading URL https://topfastcasino.xyz/soft/belatra/
+[2020-10-31 08:21:47] [preloader::task] Preloading URL https://topfastcasino.xyz/soft/betsoft/
+[2020-10-31 08:21:50] [preloader::task] Preloading URL https://topfastcasino.xyz/soft/betsoft/page/2/
+[2020-10-31 08:21:53] [preloader::task] Preloading URL https://topfastcasino.xyz/soft/btg/
+[2020-10-31 08:21:56] [preloader::task] Preloading URL https://topfastcasino.xyz/soft/egt/
+[2020-10-31 08:21:59] [preloader::task] Preloading URL https://topfastcasino.xyz/soft/elk/
+[2020-10-31 08:22:02] [preloader::task] Preloading URL https://topfastcasino.xyz/soft/elk/page/2/
+[2020-10-31 08:22:05] [preloader::task] Preloading URL https://topfastcasino.xyz/soft/endorphina/
+[2020-10-31 08:26:53] [preloader::task] Preloading URL https://topfastcasino.xyz/soft/endorphina/page/2/
+[2020-10-31 08:26:56] [preloader::task] Preloading URL https://topfastcasino.xyz/soft/evolution-gaming/
+[2020-10-31 08:26:59] [preloader::task] Preloading URL https://topfastcasino.xyz/soft/gameart/
+[2020-10-31 08:27:02] [preloader::task] Preloading URL https://topfastcasino.xyz/soft/gameart/page/2/
+[2020-10-31 08:27:04] [preloader::task] Preloading URL https://topfastcasino.xyz/soft/habanero/
+[2020-10-31 08:27:07] [preloader::task] Preloading URL https://topfastcasino.xyz/soft/isoftbet/
+[2020-10-31 08:27:10] [preloader::task] Preloading URL https://topfastcasino.xyz/soft/microgaming/
+[2020-10-31 08:31:43] [preloader::task] Preloading URL https://topfastcasino.xyz/soft/microgaming/page/2/
+[2020-10-31 08:31:46] [preloader::task] Preloading URL https://topfastcasino.xyz/soft/netent/
+[2020-10-31 08:31:49] [preloader::task] Preloading URL https://topfastcasino.xyz/soft/netent/page/2/
+[2020-10-31 08:31:52] [preloader::task] Preloading URL https://topfastcasino.xyz/soft/nyx/
+[2020-10-31 08:31:55] [preloader::task] Preloading URL https://topfastcasino.xyz/soft/nyx/page/2/
+[2020-10-31 08:31:58] [preloader::task] Preloading URL https://topfastcasino.xyz/soft/playn-go/
+[2020-10-31 08:32:00] [preloader::task] Preloading URL https://topfastcasino.xyz/soft/pragmatic-play/
+[2020-10-31 08:37:01] [preloader::task] Preloading URL https://topfastcasino.xyz/soft/pragmatic-play/page/2/
+[2020-10-31 08:37:04] [preloader::task] Preloading URL https://topfastcasino.xyz/soft/spinomenal/
+[2020-10-31 08:37:08] [preloader::task] Preloading complete
