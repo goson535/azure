@@ -7,7 +7,6 @@ RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.php [L]
-php_value mbstring.func_overload 1
 SetEnv HTTPS "on"
 SetEnv HTTP_X_FORWARDED_PROTO "https"
 # END WordPress
