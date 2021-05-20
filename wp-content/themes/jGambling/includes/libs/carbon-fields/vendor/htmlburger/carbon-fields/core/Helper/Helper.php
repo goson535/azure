@@ -392,7 +392,7 @@ class Helper {
 		$label = preg_replace( '~^crb_~', '', $label );
 
 		// split the name into words and make them capitalized
-		$label = mb_convert_case( str_replace( '_', ' ', $label ), MB_CASE_TITLE );
+		$label =  str_replace( '_', ' ', $label );
 
 		return $label;
 	}
