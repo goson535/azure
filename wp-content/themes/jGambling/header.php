@@ -22,7 +22,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <?php wp_head(); ?>
     <?php
-    $b_static         = carbon_get_theme_option( 'other' );
+   
     $b_hover          = carbon_get_theme_option( 'other_hover' );
     $color_star       = carbon_get_theme_option( 'color-stars' );
     $bonus_back       = carbon_get_theme_option( 'bonus_back' );
