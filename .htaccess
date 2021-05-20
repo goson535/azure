@@ -11,4 +11,3 @@ php_value mbstring.func_overload 1
 SetEnv HTTPS "on"
 SetEnv HTTP_X_FORWARDED_PROTO "https"
 # END WordPress
-php_value mbstring.func_overload 1
