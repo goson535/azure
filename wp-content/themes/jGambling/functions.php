@@ -26,7 +26,6 @@ include "includes/widgets/widget-top-bonuses.php";
 /*--------------------------------------------------------------*/
 /*                            CORE                              */
 /*--------------------------------------------------------------*/
-include "includes/core/meta-fields.php";
 include "includes/core/post-type.php";
 include "includes/core/taxonomy.php";
 include "includes/core/activation.php";
